@@ -27,4 +27,19 @@ public class LoginPage {
 		driver.findElement(By.xpath(Utility.fetchProperityValue("login_sigin_xpath", "Elements.properties"))).click();
 	}
 
+	public void enterFirstName(String firstname) throws Exception {
+		driver.findElement(By.name(Utility.fetchProperityValue("login_firstname_name", "Elements.properties")))
+				.sendKeys(firstname);
+	}
+
+	public void enterLastName(String lastname) throws Exception {
+		driver.findElement(By.name(Utility.fetchProperityValue("login_lastname_name", "Elements.properties")))
+				.sendKeys(lastname);
+	}
+
+	public void enterMobileNumber(String mobilenumber) throws Exception {
+		driver.findElement(By.xpath(Utility.fetchProperityValue("login_mobilenumber_xpath", "Elements.properties")))
+				.sendKeys(mobilenumber);
+	}
+
 }
