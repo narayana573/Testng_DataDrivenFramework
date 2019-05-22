@@ -2,6 +2,8 @@
 ## TestNG Annotations
 <br><br>
 
+105. What are the annotations available in TestNG?
+
 @BeforeSuite <br>
 @AfterSuite <br>
 @BeforeTest <br>
