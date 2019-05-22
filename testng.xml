@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="5" name="Test">
+        <classes>
+            <class name="org.automation.testing.testcases.TC_001_ValidateLoginFunctionality"/>
+            <class name="org.automation.testing.testcases.TC_002_Register_new_User"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
