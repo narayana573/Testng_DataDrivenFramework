@@ -254,3 +254,13 @@ Single Inheritance : In single inheritance, subclasses inherit the features of o
 <br><br><br><br>
 
 
+jenkins Password:
+42f08a8b1c954a7d8a0a66d0e0ff64db
+
+
+/home/surya/Downloads/Softwares/jdk1.8.0_201/bin/java
+
+which java
+mvn --version
+/usr/share/maven
+

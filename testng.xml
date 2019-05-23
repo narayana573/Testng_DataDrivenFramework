@@ -3,8 +3,8 @@
 <suite name="Suite">
     <test thread-count="5" name="Test">
         <classes>
-            <class name="org.automation.testing.testcases.TC_001_ValidateLoginFunctionality"/>
-            <class name="org.automation.testing.testcases.TC_002_Register_new_User"/>
+            <class name="java.org.automation.testing.testcases.TC_001_ValidateLoginFunctionality"/>
+            <class name="java.org.automation.testing.testcases.TC_002_Register_new_User"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
