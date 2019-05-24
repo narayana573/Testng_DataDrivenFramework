@@ -14,23 +14,27 @@ public class DriverInstance {
 
 	@BeforeMethod
 	public void initiateDriverInstance() throws Exception {
-		if (Utility.fetchProperityValue("browserName", "config.properties").equalsIgnoreCase("chrome")) {
+		/*if (Utility.fetchProperityValue("browserName", "config.properties").equalsIgnoreCase("chrome"))
+		{
 			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver");
 			driver = new ChromeDriver();
-		} else if (Utility.fetchProperityValue("browserName", "config.properties").equalsIgnoreCase("firefox")) {
+		} */
+		 if (Utility.fetchProperityValue("browserName", "config.properties").equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver", "./Driver/geckodriver");
 			driver = new FirefoxDriver();
-		} else if (Utility.fetchProperityValue("browserName", "config.properties").equalsIgnoreCase("ie")) {
+		}
+		/*else if (Utility.fetchProperityValue("browserName", "config.properties").equalsIgnoreCase("ie")) {
 			driver = new InternetExplorerDriver();
-		} else {
+		}
+		else {
 			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver");
 			driver = new ChromeDriver();
 
-			/*ChromeOptions options = new ChromeOptions();
+			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200",
 					"--ignore-certificate-errors","'--disable-dev-shm-usage'");
-			driver = new ChromeDriver(options);*/
-		}
+			driver = new ChromeDriver(options);
+		}*/
 		driver.get(Utility.fetchProperityValue("applicationURL", "config.properties"));
 		driver.manage().window().maximize();
 	}
