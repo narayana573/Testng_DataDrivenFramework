@@ -24,10 +24,12 @@ public class DriverInstance {
 			driver = new InternetExplorerDriver();
 		} else {
 			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver");
-			ChromeOptions options = new ChromeOptions();
+			driver = new ChromeDriver();
+
+			/*ChromeOptions options = new ChromeOptions();
 			options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200",
 					"--ignore-certificate-errors","'--disable-dev-shm-usage'");
-			driver = new ChromeDriver(options);
+			driver = new ChromeDriver(options);*/
 		}
 		driver.get(Utility.fetchProperityValue("applicationURL", "config.properties"));
 		driver.manage().window().maximize();
