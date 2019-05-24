@@ -15,6 +15,7 @@ public class TC_001_ValidateLoginFunctionality extends DriverInstance {
 		login.enterUsername(uname);
 		login.enterPassword(pass);
 		login.clickSignin();
+		System.out.println("Test Case 1 is Passed Successfully");
 	}
 
 
