@@ -26,10 +26,11 @@ public class DriverInstance {
 			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200",
-					"--ignore-certificate-errors");
+					"--ignore-certificate-errors","'--disable-dev-shm-usage'");
 			driver = new ChromeDriver(options);
 		}
 		driver.get(Utility.fetchProperityValue("applicationURL", "config.properties"));
+		driver.manage().window().maximize();
 	}
 
 	@AfterMethod
