@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <build>
-        <sourceDirectory>src</sourceDirectory>
+        <sourceDirectory>src/main/java</sourceDirectory>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -28,11 +28,11 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <configuration>
+                    <!--<configuration>
                         <skipTests>false</skipTests>
                         <testFailureIgnore>true</testFailureIgnore>
                         <forkMode>once</forkMode>
-                    </configuration>
+                    </configuration>-->
                 </configuration>
             </plugin>
         </plugins>

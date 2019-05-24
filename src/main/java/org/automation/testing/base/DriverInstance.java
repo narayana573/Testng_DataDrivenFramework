@@ -15,15 +15,15 @@ public class DriverInstance {
 	@BeforeMethod
 	public void initiateDriverInstance() throws Exception {
 		if (Utility.fetchProperityValue("browserName", "config.properties").equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver");
 			driver = new ChromeDriver();
 		} else if (Utility.fetchProperityValue("browserName", "config.properties").equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "/usr/bin/geckodriver");
+			System.setProperty("webdriver.gecko.driver", "./Driver/geckodriver");
 			driver = new FirefoxDriver();
 		} else if (Utility.fetchProperityValue("browserName", "config.properties").equalsIgnoreCase("ie")) {
 			driver = new InternetExplorerDriver();
 		} else {
-			System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200",
 					"--ignore-certificate-errors");
