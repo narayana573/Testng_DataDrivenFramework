@@ -35,7 +35,6 @@ public class DriverInstance {
 	@AfterMethod
 	public void closeDriverInstance() {
 		driver.quit();
-
 	}
 
 }

@@ -13,12 +13,6 @@ import java.lang.reflect.Method;
 public class DataGenerator {
     @DataProvider(name = "Excel")
     public static Object[][] testDataGenerator(Method met) throws IOException
-        //Passing data as static
-    /*{
-        Object[][] data = {{"Uname1","pass1"},{"Uname2","pass2"},{"Uname3","pass3"}};
-        return data;
-    }*/
-
     //Passing data from excel
     {
         if (met.getName().equalsIgnoreCase("tc_001_login_functionality")) {
@@ -35,10 +29,6 @@ public class DataGenerator {
                     XSSFCell column1 = row1.getCell(j);
                     testData[i][j] = column1.getStringCellValue();
                 }
-            /*XSSFCell userName = row1.getCell(0);
-            XSSFCell passWord = row1.getCell(1);
-            testData [i][0]= userName.getStringCellValue();
-            testData [i][1]= passWord.getStringCellValue();*/
             }
             return testData;
         } else if (met.getName().equalsIgnoreCase("TC_002_Register_new_User")) {

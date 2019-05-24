@@ -18,7 +18,6 @@ public class Compare {
 			flag = true;
 		}
 		return flag;
-
 	}
 
 }
