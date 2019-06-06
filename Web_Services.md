@@ -1,13 +1,13 @@
-1. API & web services difference
+1. API & web services difference <br><br>
 Web Services:
-Web service facilitates interaction between two machines over a network. <br>
-A Web service is designed to have an interface that is depicted in a machine-processable format usually specified in Web Service Description <br> 
-A Web service uses only three styles of use: SOAP, REST and XML-RPC for communication whereas API may use any style for communication <br>
+> Web service facilitates interaction between two machines over a network. <br>
+> A Web service is designed to have an interface that is depicted in a machine-processable format usually specified in Web Service Description <br> 
+> A Web service uses only three styles of use: SOAP, REST and XML-RPC for communication whereas API may use any style for communication <br>
 
 API:
-API acts as an interface between two different applications so that they can communicate with each other. <br>
-An API is a method by which the third-party vendors can write programs that interface easily with other programs <br>
-All Web services are APIs but all APIs are not Web services.
+> API acts as an interface between two different applications so that they can communicate with each other. <br>
+> An API is a method by which the third-party vendors can write programs that interface easily with other programs <br>
+> All Web services are APIs but all APIs are not Web services.
 
 
 2. API testing using postman
