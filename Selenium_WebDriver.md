@@ -284,24 +284,21 @@ Single Inheritance : In single inheritance, subclasses inherit the features of o
 
 
 #### Polymorphism:
-# Overloading: 
-              If class have more than 1 method with same name but different signature is called as "Method overlodding"
+### Overloading: 
+   If class have more than 1 method with same name but different signature is called as "Method overlodding"
              Also called as compile time polimorphism/Early Binding
-# Overriding: 
-             If the parent and child class have same name of the method & same signature is called overriden
+### Overriding: 
+   If the parent and child class have same name of the method & same signature is called overriden
             Also called as run time polymorphism/Late Binding
 
 #### Abstraction:
-    Abstraction is the process of hiding the implimentation details from the user. Only functionality will be provided to the user.
+   Abstraction is the process of hiding the implimentation details from the user. Only functionality will be provided to the user.
     An abstract method is a method that is declared without an implementation.
     An abstract class may or may not have all abstract methods. Some of them can be concrete methods
     A method defined abstract must always be redefined in the subclass,thus making overriding compulsory OR either make subclass itself abstract.
     Any class that contains one or more abstract methods must also be declared with abstract keyword.
     There can be no object of an abstract class.That is, an abstract class can not be directly instantiated with the new operator.
     An abstract class can have parametrized constructors and default constructor is always present in an abstract class.
-
-
-
 
 ```
 public class Student{ 
@@ -325,12 +322,6 @@ this.name=name
 ```
 
 
-#### Inheritence:
-https://www.geeksforgeeks.org/inheritance-in-java/ <br>
-
-It is the mechanism in java by which one class is allow to inherit the features(fields and methods) of another class<br>
-
-Single Inheritance : In single inheritance, subclasses inherit the features of one superclass. In image below, the class A serves as a base class for the derived class B.<br>
 
 
 
