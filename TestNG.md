@@ -42,8 +42,6 @@ public void testServer() {
 
 #### The advantages of TestNG are as follows:
 
-
-
 > Using TestNG we can create the test cases in a systematic way.
 
 > TestNG gives lots of annotations which in turn makes the test case creation easy.
@@ -67,8 +65,6 @@ public void testServer() {
 ## How will you define grouping in TestNG?
 
 @Test(groups=”title”)
-
-
 
 
 ## What is a dependency in TestNG?
