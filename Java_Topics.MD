@@ -120,3 +120,18 @@ this.name=name
 } 
 ```
 
+
+
+## Access Modifiers In Java
+
+
+| Modifiers    | Class        | Package        |Sub Class        |Everywhere        |
+| :---         |     :---:      |          ---: |          ---: |          ---:    |
+| Public      | Yes            | Yes           |Yes              |Yes               |
+| Procted     | Yes            | Yes           |Yes              |NO                |
+| Default     | Yes            | Yes           |NO               |NO                |
+| Private     | Yes            | NO            |NO               |NO                |
+
+
+
+
