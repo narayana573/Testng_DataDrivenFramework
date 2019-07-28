@@ -124,7 +124,6 @@ this.name=name
 
 ## Access Modifiers In Java
 
-
 | Modifiers    | Class        | Package        |Sub Class        |Everywhere        |
 | :---         |     :---:      |          ---: |          ---: |          ---:    |
 | Public      | Yes            | Yes           |Yes              |Yes               |
