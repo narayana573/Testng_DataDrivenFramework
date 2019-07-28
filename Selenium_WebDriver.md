@@ -217,3 +217,25 @@ which java
 mvn --version
 /usr/share/maven
 
+
+
+## Webdriver exceptions
+
+| Webdriver exceptions    				  | Description         																		 | 
+| :---         			  				   |     :---:      																			 |
+| NoSuchElementException                  | This exception is due to accessing an element which is not available on the page.            | 
+| NoAlertPresentException                 | If a user tries to handle an alert box but the alert is not present.                         | 
+| ElementNotVisibleException              | If selenium tries to find an element but the element is not visible within the page          | 
+| NoSuchAttributeException                | While trying to get attribute value but the attribute is not available in DOM.               | 
+| WebDriverException                      | Exception comes when a code is unable to initialize WebDriver.                               | 
+| NoSuchWindowException                   | This is thrown when WebDriver tries to switch to an invalid window.                          | 
+| NoSuchFrameException                    | When WebDriver is trying to switch to an invalid frame, NoSuchFrameException under NotFoundException class is thrown.                                                                                                                               | 
+| InvalidSelectorException                | Yes            |
+| ElementNotSelectableException           | Yes            |
+| TimeoutException                        | Yes            |
+| NoSuchSessionException                  | Yes            |
+| StaleElementReferenceException          | Yes            |
+| Private                 | Yes            |
+| Private                 | Yes            |
+
+
