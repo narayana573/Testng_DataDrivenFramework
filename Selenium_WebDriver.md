@@ -230,12 +230,10 @@ mvn --version
 | WebDriverException                      | Exception comes when a code is unable to initialize WebDriver.                               | 
 | NoSuchWindowException                   | This is thrown when WebDriver tries to switch to an invalid window.                          | 
 | NoSuchFrameException                    | When WebDriver is trying to switch to an invalid frame, NoSuchFrameException under NotFoundException class is thrown.                                                                                                                               | 
-| InvalidSelectorException                | Yes            |
-| ElementNotSelectableException           | Yes            |
-| TimeoutException                        | Yes            |
-| NoSuchSessionException                  | Yes            |
-| StaleElementReferenceException          | Yes            |
-| Private                 | Yes            |
-| Private                 | Yes            |
+| InvalidSelectorException                | This subclass of NoSuchElementException class occurs when a selector is incorrect or syntactically invalid. This exception occurs commonly when XPATH locator is used.																	             |
+| ElementNotSelectableException           | This exception comes under InvalidElementStateException class. ElementNotSelectableException indicates that the web element is present in the web page but cannot be selected.															             |
+| TimeoutException                        | This exception occurs when a command completion takes more than the wait time. Waits are mainly used in WebDriver to avoid the exception ElementNotVisibleException.																             |
+| NoSuchSessionException                  | This exception is thrown when a method is called after quitting the browser by WebDriver.quit(). This can also happen due to web browser issues like crashes and WebDriver cannot execute any command using the driver instance.	               |
+| StaleElementReferenceException          | StaleElementReferenceException is thrown when an object for a particular web element was created in the program without any problem and however; this element is no longer present in the window. 									             |
 
 
