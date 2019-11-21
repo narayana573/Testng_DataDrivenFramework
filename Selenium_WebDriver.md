@@ -24,6 +24,9 @@ if (Utility.fetchProperityValue("browserName", "config.properties").equalsIgnore
 ```
 
 ##### XPATH
+There are two types of XPath:
+1) Absolute XPath  (html/body/div[1]/section/div[1]/div/div/div/div[1]/div/div/div/div/div[3]/div[1]/div/h4[1]/b)
+2) Relative XPath 
 
 > Xpath=//tagname[@attribute='value'] <br><br>
 
