@@ -173,6 +173,16 @@ ResultSet rs = stmt.executeQuery(select * from employee;);
 ```
 ##### Git Commands
 
+> git clone Https:www.projecturl.com
+
+> git pull
+
+> git commit -m "commit message"
+
+> git checkout <Branch Name>
+
+
+
 ##### getScreenshotAs()
 ```
 File shot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
