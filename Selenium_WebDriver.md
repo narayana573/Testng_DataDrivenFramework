@@ -179,7 +179,7 @@ ResultSet rs = stmt.executeQuery(select * from employee;);
 
 > git commit -m "commit message"
 
-> git checkout <Branch Name>
+> git checkout '<Branch Name>'
 
 
 
