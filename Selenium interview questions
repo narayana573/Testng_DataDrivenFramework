@@ -1,14 +1,16 @@
-Daily Activities
-How often do you do do retesting & Regression testing
-string and stringbuffer difference
-reverse string
-mutable and immutable
-assert and verify in selenium
-frame vs iframe difference
-how to swith over frame & iframe
-How to switch back from a frame to default in Selenium Webdriver
-How to switch back from a Window to default in Selenium Webdriver
-oops concepts
-testng annotations
-Framework
-find dynamic value from table selenium
+    SNO	|	Questions	|	Answer
+-------------	|	-------------	|	-------------
+	|	Daily Activities	|	
+	|	How often do you do do retesting & Regression testing	|	
+	|	string and stringbuffer difference	|	
+	|	reverse string	|	
+	|	mutable and immutable	|	
+	|	assert and verify in selenium	|	
+	|	frame vs iframe difference	|	
+	|	how to swith over frame & iframe	|	
+	|	How to switch back from a frame to default in Selenium Webdriver	|	
+	|	How to switch back from a Window to default in Selenium Webdriver	|	
+	|	oops concepts	|	
+	|	testng annotations	|	
+	|	Framework	|	
+	|	find dynamic value from table sele	|	
