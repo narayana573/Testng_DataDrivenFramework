@@ -1,16 +1,16 @@
-SNO	|	Questions(Black Knight, Inc)	|	Answer
--------------	|	-------------	|	-------------
-1	|	Daily Activities	|	
-2	|	How often do you do do retesting & Regression testing	|	
-3	|	string and stringbuffer difference	|	
-4	|	reverse string	|	
-5	|	mutable and immutable	|	
-6	|	assert and verify in selenium	|	
-7	|	frame vs iframe difference	|	
-8	|	how to swith over frame & iframe	|	
-9	|	How to switch back from a frame to default in Selenium Webdriver	|	
-10	|	How to switch back from a Window to default in Selenium Webdriver	|	
-11	|	oops concepts	|	
-12	|	testng annotations	|	
-13	|	Framework	|	
-14	|	find dynamic value from table sele	|	
+Question  | Answer
+------------- | -------------
+Daily Activities  | Content Cell
+How often do you do do retesting & Regression testing  | Content Cell
+string and stringbuffer difference  | Content Cell
+reverse string  | Content Cell
+mutable and immutable  | Content Cell
+assert and verify in selenium  | Content Cell
+frame vs iframe difference  | Content Cell
+how to swith over frame & iframe  | Content Cell
+How to switch back from a frame to default in Selenium Webdriver | Content Cell
+How to switch back from a Window to default in Selenium Webdriver  | Content Cell
+oops concepts  | Content Cell
+testng annotations  | Content Cell
+Framework  | Content Cell
+find dynamic value from table sele  | Content Cell
