@@ -10,9 +10,6 @@ whereas StringBuffer and StringBuilder are mutable so they can change their valu
 
 
 
-
-
-
 ###### reverse string
 mutable and immutable
 ###### assert and verify in selenium
@@ -22,6 +19,11 @@ mutable and immutable
 
 
 ###### frame vs iframe difference
+> iframe is able to "float" within content in a page
+
+> frameset allows you to split the screen into different pages (horizontally and vertically)
+
+
 ###### how to swith over frame & iframe
 ###### How to switch back from a frame to default in Selenium Webdriver
 ###### How to switch back from a Window to default in Selenium Webdriver
