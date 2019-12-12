@@ -1,9 +1,11 @@
 ###### Daily Activities
 ###### How often do you do do retesting & Regression testing
-<b>string and stringbuffer difference</b>
+###### string and stringbuffer difference
 > String is immutable, if you try to alter their values, another object gets created, 
 whereas StringBuffer and StringBuilder are mutable so they can change their values
+
 > At any point of time StringBuffer contains some particular sequence of characters, but the length and content of the sequence can be changed through certain method calls.
+
 > StringBuffer low performer as it is synchronized.
 
 
