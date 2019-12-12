@@ -34,6 +34,17 @@ mutable and immutable
 
 
 ###### How to switch back from a frame to default in Selenium Webdriver
+> driver.switchTo().parentFrame();
+
+> Switch to Parent Frame command sets the current browsing context for future commands to the parent of the current browsing context.
+
+>As per the Java Docs parentFrame() method changes the focus to the parent context. If the current context is the top level browsing context, the context remains unchanged.
+
+> driver.switchTo().defaultContent();
+
+> defaultContent() method selects either the first frame on the page, or the main document when a page contains iframes.
+
+
 ###### How to switch back from a Window to default in Selenium Webdriver
 ###### oops concepts
 ###### testng annotations
