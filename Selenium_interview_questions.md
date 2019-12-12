@@ -14,6 +14,10 @@ whereas StringBuffer and StringBuilder are mutable so they can change their valu
 ###### reverse string
 mutable and immutable
 ###### assert and verify in selenium
+> When an “assert” command fails, the test execution will be aborted
+> When a “verify” command fails, the test will continue executing and logging the failure.
+
+
 ###### frame vs iframe difference
 ###### how to swith over frame & iframe
 ###### How to switch back from a frame to default in Selenium Webdriver
