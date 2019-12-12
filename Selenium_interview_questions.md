@@ -25,6 +25,14 @@ mutable and immutable
 
 
 ###### how to swith over frame & iframe
+> https://www.guru99.com/handling-iframes-selenium.html
+
+> driver.switchTo().parentFrame();
+
+> driver.switchTo().defaultContent();
+
+
+
 ###### How to switch back from a frame to default in Selenium Webdriver
 ###### How to switch back from a Window to default in Selenium Webdriver
 ###### oops concepts
