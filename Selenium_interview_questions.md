@@ -44,6 +44,13 @@ mutable and immutable
 
 > defaultContent() method selects either the first frame on the page, or the main document when a page contains iframes.
 
+###### XPATH   (following   &following-sibling::td[1])
+
+> following: This function will return the immediate element of the particular component.
+
+> Preceding: This function will return the preceding element of the particular element.
+
+
 
 ###### How to switch back from a Window to default in Selenium Webdriver
 ###### oops concepts
