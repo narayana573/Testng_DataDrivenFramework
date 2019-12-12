@@ -15,6 +15,7 @@ whereas StringBuffer and StringBuilder are mutable so they can change their valu
 mutable and immutable
 ###### assert and verify in selenium
 > When an “assert” command fails, the test execution will be aborted
+
 > When a “verify” command fails, the test will continue executing and logging the failure.
 
 
