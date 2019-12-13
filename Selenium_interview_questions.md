@@ -51,6 +51,7 @@ mutable and immutable
 > Preceding: This function will return the preceding element of the particular element.
 
 
+###### Which is best locator in selenium?
 
 ###### How to switch back from a Window to default in Selenium Webdriver
 ###### oops concepts
