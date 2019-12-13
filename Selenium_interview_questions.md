@@ -67,5 +67,22 @@ mutable and immutable
 
 
 
+runtime polymorphism with code
+
+list set map in java
+
+how selenium  works
+
+how selenium works internally
+
+driver.get & driver.navigate
+
+Serverity & Priority
+
+Test case & test scenario/suite
+
+
+
+
 
 
