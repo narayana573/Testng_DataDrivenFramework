@@ -53,6 +53,9 @@ mutable and immutable
 
 ###### Which is best locator in selenium?
 
+> IDs are the safest, fastest locator option and should always be your first choice
+
+
 ###### How to switch back from a Window to default in Selenium Webdriver
 ###### oops concepts
 ###### testng annotations
