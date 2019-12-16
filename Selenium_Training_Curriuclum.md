@@ -46,7 +46,7 @@ Operators in Java
 
 Wrapper Classes
 
-lypes of Variable (Local, Instance and Static Variables)
+Types of Variable (Local, Instance and Static Variables)
 
 
 > Conditional Statements 
