@@ -321,73 +321,119 @@ Capture screenshot of entire page
 > Apache POl 
 
 Configure Apache POI with Eclipse.
+
 Workbook, Sheet Row ,Cell Interfaces methods
+
 HSSFWorkbook, HSSFSheet, HSSFRow, HSSFCell methods
+
 XSSFWorkbook, XSSFSheet, XSSFRow, XSSFCell methods
+
 How to read data from Excel file(XLS or XLSX)
+
 How to write data to Excel file(XLS or XLSX)
 
 > TestNG
 
 TestNGFeatures
+
 Configure TestNG with Eclipse
+
 TestNG Annotations
+
 Integrate Selenium Scripts with TestNG
+
 Create TestNG.xml file
+
 Assert methods
+
 Hard Assert vs. Soft Assert
+
 Cross browser testing
+
 How to use DataProvider
+
 Reporting Results
+
 Listeners
+
 Sequential Execution vs. Parallel Execution
+
 How to create batch file
+
 Extended Reports
 
 > Maven
 
 What is maven
+
 Installing Maven in Local Machine
+
 Creating Maven project in Eclipse
+
 Understanding of POM .xml
+
 Maven Integration with TestNG
+
 Maven Lifecycle
+
 Executing Scripts Using Maven build tool
+
 Advantages Maven Build Tool
 
 > Jenkins
 
 Overview of Jenkins
+
 Installing Jenkins
+
 Configure Maven project in Jenkins
+
 Configure Non Maven project in lenkins
+
 Creating Jobs in Jenkins
+
 Scheduling lobs for timely Execution
+
 Integration with Selenium Scripts and Running Scripts
+
 Configure Email notification in Jenkins
 
 > Selenium Grid 
 
 Overview of Selenium Grid
+
 Remote WebDriver and Desired Capabilities class
+
 Configuring Hub
+
 Configuring Node
+
 Running scripts on Remote system
+
 Run Selenium scripts in parallel on Remote system
 
 > GitHub & Git
 
 How to create GitHub Account.
+
 Configure Git and GitHub with Eclipse
+
 Git & GitHub Commands
+
 Integrate with Framework
 
 > Automation Life Cycle.
 
 What is a Framework?
+
 lypes of Frameworks
+
 How to implement Data Driven framework
+
 How to implement Page Object Model (POM)
+
 How to implement Keyword driven Framework
+
 How to implement Hybrid framework
+
 How to execute the scripts from frameworks
