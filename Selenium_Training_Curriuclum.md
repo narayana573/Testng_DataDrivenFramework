@@ -1,3 +1,39 @@
+1- OOPS Concept
+
+You should know basic concept of Oops like Class , Object, Inheritance, Polymorphism, Abstraction
+
+2- List of keywords, Interface in Java.
+
+3- Handle data types and usage of same.
+
+4- Control statements.
+
+5- Looping statements.
+
+6- String class, Wrapper classes, Array (2 D arrays)
+
+7- Exception handling.
+
+8- Collection framework (List, Set)
+
+9- File handling.
+
+10- Packages and Eclipse usages.
+
+11- Passing parameters to methods and returning the values.
+
+
+
+
+
+
+
+
+
+
+
+
+
 Selenium Curriuclum
 
 > Introduction
