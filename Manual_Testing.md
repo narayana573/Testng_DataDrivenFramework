@@ -7,3 +7,9 @@
 > <b>Retesting</b> is done to make sure that the tests cases which failed in last execution are passing after the defects against those failures are fixed.
 
 > <b>Regression testing</b> is not carried out on specific defect fixes. ... InRegression testing, you can include the test cases which passed earlier.
+
+
+> <b>Test Case:</b> A TEST CASE is a set of actions executed to verify a particular feature or functionality of your software application. A Test Case contains test steps, test data, precondition, postcondition developed for specific test scenario to verify any requirement.
+
+
+> <b>Test Suite:</b> as “validation suite,” a test suite is a collection of various test cases that are intended to test a software product or its specific functionality/feature, once the software development is accomplished.
