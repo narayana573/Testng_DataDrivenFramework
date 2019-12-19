@@ -18,7 +18,7 @@
 > <b>Severity:</b> Defect Severity is defined as the degree of impact that a defect has on the operation of the product
 
 ###### Severity is categorized into five types
-*Critical
+* Critical
 * Major
 * Moderate
 * Minor
