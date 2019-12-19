@@ -17,7 +17,7 @@
 
 > <b>Severity:</b> Defect Severity is defined as the degree of impact that a defect has on the operation of the product
 
-###### Severity is categorized into five types
+** Severity is categorized into five types **
 * Critical
 * Major
 * Moderate
@@ -27,7 +27,7 @@
 
 > <b>Priority:</b> Defect Priority has defined the order in which the developer should resolve a defect
 
-###### Priority is categorized into three types
+** Priority is categorized into three types **
 * Low
 * Medium
 * High
