@@ -3,9 +3,13 @@
 
 
 Encapsulation
+
 Inheritance
+
 Polymorphism
+
 Abstraction
+
 Interface
 
 
