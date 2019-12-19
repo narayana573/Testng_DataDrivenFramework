@@ -13,3 +13,21 @@
 
 
 > <b>Test Suite:</b> as “validation suite,” a test suite is a collection of various test cases that are intended to test a software product or its specific functionality/feature, once the software development is accomplished.
+
+
+> <b>Severity:</b> Defect Severity is defined as the degree of impact that a defect has on the operation of the product
+
+## Severity is categorized into five types
+*Critical
+* Major
+* Moderate
+* Minor
+* Cosmetic
+
+
+> <b>Priority:</b> Defect Priority has defined the order in which the developer should resolve a defect
+
+## Priority is categorized into three types
+* Low
+* Medium
+* High
