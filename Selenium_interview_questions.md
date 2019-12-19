@@ -79,6 +79,23 @@ driver.get & driver.navigate
 
 Serverity & Priority
 
+Severity: Defect Severity is defined as the degree of impact that a defect has on the operation of the product
+
+Severity is categorized into five types
+Critical
+Major
+Moderate
+Minor
+Cosmetic
+
+
+Priority: Defect Priority has defined the order in which the developer should resolve a defect
+
+Priority is categorized into three types
+Low
+Medium
+High
+
 Test case & test scenario/suite
 
 
