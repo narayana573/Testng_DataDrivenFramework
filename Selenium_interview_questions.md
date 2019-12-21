@@ -80,7 +80,11 @@ mutable and immutable
 
 
 
-list set map in java
+###### Difference Between List &  Set java
+|	List	|	Set	|
+|	:---	|	:---	|
+|	Duplicates are allowed	|	Duplicates are not allowed	|
+|	Insertion Order Preserved	|	Insertion order not Preserved	|
 
 how selenium  works
 
