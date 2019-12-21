@@ -67,7 +67,7 @@ mutable and immutable
 
 
 
-###### runtime polymorphism with code
+###### Difference between Runtime Polymorphism and Compile time Polymorphism
 
 |	Compile time Polymorphism	|	Run time Polymorphism
 |	:---	|	:---
