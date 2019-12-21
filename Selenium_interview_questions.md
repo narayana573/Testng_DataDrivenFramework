@@ -116,5 +116,29 @@ Test case & test scenario/suite
 
 
 
+Commands need to be perfect
+
+Elements and element
+
+Interface vs abstract
+
+Implicit vs explicit
+
+50th table find
+
+Frame button selection
+
+Framework
+
+What is webdriver
+
+Selenium WebDriver is a collection of open source APIs which are used to automate the testing of a web application. 
+
+Methods for services
+GET,POST,PATCH,DELETE
+
+Status codes for get , Post
+
+
 
 
