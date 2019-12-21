@@ -67,7 +67,8 @@ mutable and immutable
 
 
 
-runtime polymorphism with code
+###### runtime polymorphism with code
+> Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile-time. In this process, an overridden method is called through the reference variable of a superclass.
 
 list set map in java
 
