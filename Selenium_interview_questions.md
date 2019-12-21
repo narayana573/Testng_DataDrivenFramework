@@ -68,7 +68,17 @@ mutable and immutable
 
 
 ###### runtime polymorphism with code
-> Runtime polymorphism or Dynamic Method Dispatch is a process in which a call to an overridden method is resolved at runtime rather than compile-time. In this process, an overridden method is called through the reference variable of a superclass.
+
+|	Compile time Polymorphism	|	Run time Polymorphism
+|	:---	|	:---
+|	In Compile time Polymorphism, call is resolved by the compiler.	|	In Run time Polymorphism, call is not resolved by the compiler.
+|	It is also known as Static binding, Early binding and overloading as well.	|	It is also known as Dynamic binding, Late binding and overriding as well.
+|	Overloading is compile time polymorphism where more than one methods share the same name with different parameters or signature and different return type.	|	Overriding is run time polymorphism having same method with same parameters or signature, but associated in a class & its subclass.
+|	It is achieved by function overloading and operator overloading.	|	It is achieved by virtual functions and pointers.
+|	It provides fast execution because known early at compile time.	|	It provides slow execution as compare to early binding because it is known at runtime.
+|	Compile time polymorphism is less flexible as all things execute at compile time.	|	Run time polymorphism is more flexible as all things execute at run time.
+
+
 
 list set map in java
 
