@@ -145,19 +145,12 @@ this.name=name
 
 
 
-------------+-------+---------+--------------+--------------+--------
-            | Class | Package | Subclass     | Subclass     |Outside|
-            |       |         |(same package)|(diff package)|Class  |
-————————————+———————+—————————+——————————----+—————————----—+————————
-public      | Yes   |  Yes    |    Yes       |    Yes       |   Yes |    
-————————————+———————+—————————+—————————----—+—————————----—+————————
-protected   | Yes   |  Yes    |    Yes       |    Yes       |   No  |    
-————————————+———————+—————————+————————----——+————————----——+————————
-default     | Yes   |  Yes    |    Yes       |    No        |   No  |
-————————————+———————+—————————+————————----——+————————----——+————————
-private     | Yes   |  No     |    No        |    No        |   No  |
-------------+-------+---------+--------------+--------------+--------
-
+|		|	Class	|	Package	|	Subclass  (same package)	|	Subclass  (diff package)	|	Outside Class	|
+|	:--- 	|	:--- 	|	:--- 	|	:--- 	|	:--- 	|	:--- 	|
+|	public	|	Yes	|	Yes	|	Yes	|	Yes	|	Yes	|
+|	protected	|	Yes	|	Yes	|	Yes	|	Yes	|	No	|
+|	default	|	Yes	|	Yes	|	Yes	|	No	|	No	|
+|	private	|	Yes	|	No	|	No	|	No	|	No	|
 
 
 
