@@ -26,21 +26,21 @@ mutable and immutable
 
 ###### how to swith over frame & iframe
 > https://www.guru99.com/handling-iframes-selenium.html
+```
+driver.switchTo().parentFrame();
 
-> driver.switchTo().parentFrame();
-
-> driver.switchTo().defaultContent();
-
+driver.switchTo().defaultContent();
+```
 
 
 ###### How to switch back from a frame to default in Selenium Webdriver
-> driver.switchTo().parentFrame();
+``` driver.switchTo().parentFrame(); ```
 
 > Switch to Parent Frame command sets the current browsing context for future commands to the parent of the current browsing context.
 
 >As per the Java Docs parentFrame() method changes the focus to the parent context. If the current context is the top level browsing context, the context remains unchanged.
 
-> driver.switchTo().defaultContent();
+```driver.switchTo().defaultContent();```
 
 > defaultContent() method selects either the first frame on the page, or the main document when a page contains iframes.
 
@@ -121,9 +121,9 @@ Commands need to be perfect
 ###### Elements and Element
 
 ```
-  List<WebElement> elements = driver.findElements(By.name("name"));
+ List<WebElement> elements = driver.findElements(By.name("name"));
  WebElement loginLink = driver.findElement(By.linkText("Login"));
-}
+
 ```
 
 
