@@ -136,21 +136,12 @@ this.name=name
 
 ## Access Modifiers In Java
 
-| Modifiers    | Class        | Package        |Sub Class        |Everywhere        |
-| :---         |     :---:      |          ---: |          ---: |          ---:    |
-| Public      | Yes            | Yes           |Yes              |Yes               |
-| Procted     | Yes            | Yes           |Yes              |NO                |
-| Default     | Yes            | Yes           |NO               |NO                |
-| Private     | Yes            | NO            |NO               |NO                |
-
-
-
-|		|	Class	|	Package	|	Subclass  (same package)	|	Subclass  (diff package)	|	Outside Class	|
-|	:--- 	|	:--- 	|	:--- 	|	:--- 	|	:--- 	|	:--- 	|
-|	public	|	Yes	|	Yes	|	Yes	|	Yes	|	Yes	|
-|	protected	|	Yes	|	Yes	|	Yes	|	Yes	|	No	|
-|	default	|	Yes	|	Yes	|	Yes	|	No	|	No	|
-|	private	|	Yes	|	No	|	No	|	No	|	No	|
+|		Modifiers |	Class	|	Package	|	Subclass  (same package)	|	Subclass  (diff package)	|	Outside Class	|
+|	:--- 	     |	:--- 	|	:--- 	  |	:--- 	                   |	:--- 	                   |	:--- 	        |
+|	public	    |	Yes	  |	Yes	    |	Yes	                     |	Yes	                     |	Yes	          |
+|	protected	 |	Yes	  |	Yes	    |	Yes	                     |	Yes	                     |	No	           |
+|	default	   |	Yes	  |	Yes	    |	Yes	                     |	No	                      |	No	           |
+|	private	   |	Yes	  |	No	     |	No	                      |	No	                      |	No	           |
 
 
 
