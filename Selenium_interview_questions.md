@@ -118,7 +118,10 @@ Test case & test scenario/suite
 
 Commands need to be perfect
 
-Elements and element
+###### Elements and Element
+
+>  List<WebElement> elements = driver.findElements(By.name("name"));
+> WebElement loginLink = driver.findElement(By.linkText("Login"));
 
 Interface vs abstract
 
