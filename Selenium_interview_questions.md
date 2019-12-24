@@ -120,8 +120,13 @@ Commands need to be perfect
 
 ###### Elements and Element
 
->  List<WebElement> elements = driver.findElements(By.name("name"));
-> WebElement loginLink = driver.findElement(By.linkText("Login"));
+```
+  List<WebElement> elements = driver.findElements(By.name("name"));
+ WebElement loginLink = driver.findElement(By.linkText("Login"));
+}
+```
+
+
 
 Interface vs abstract
 
