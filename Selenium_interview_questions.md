@@ -113,6 +113,14 @@ Serverity & Priority
 
 Test case & test scenario/suite
 
+>Test Case
+
+Test cases contain definite test steps, data, expected results for testing all the features of an application.
+
+> Test Scenario   
+
+A test scenario contains high-level documentation which describes an end to end functionality to be tested. 
+
 
 
 
