@@ -88,7 +88,12 @@ driver.switchTo().defaultContent();
 
 how selenium  works
 
-how selenium works internally
+###### How selenium works internally
+
+> 1. Language binding
+> 2. Json wire protocol
+> 3. WebDriver server
+> 4. Browser
 
 driver.get & driver.navigate
 
