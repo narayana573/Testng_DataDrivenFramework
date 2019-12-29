@@ -145,7 +145,7 @@ Selenium WebDriver is a collection of open source APIs which are used to automat
 Methods for services
 GET,POST,PATCH,DELETE
 
-Status codes for get , Post
+> HTTP response status codes
 ```
 2xx Success
 200 OK
