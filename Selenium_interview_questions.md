@@ -187,3 +187,21 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 
 
+
+Interview 1:
+1. Please write the project structure - starting from 'src' folder
+2. How to call excel file - write code
+3. Encapsulation
+4. Explain Run Time polimarphisum & write the Syntax
+5. What is method overloading & overridding
+6. Differance b/w Abstract & Interface
+7. Write syntax for Implicity wait & Explicity wait
+8. How return data of findElements & iframs
+9. Write the code for find element from the table , for the text have "Name"
+9. Write syntax for How to moving existing frame to previous frame
+10. How to handle drop-down & how many methods
+11. Write the code for reverse string
+12. Why we using get() in element level
+13. Differance b/w findElement & findElements
+14. How many types of Xpath & explain
+
