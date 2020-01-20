@@ -150,16 +150,23 @@ this.name=name
 Super
 ======
 1.used to access the super class member
+
 syn;-super.show();
+
 super.x;
+
 2.used to sent the loan argument from sub class to super class constructor
+
 syn:-super(arg1,arg2);
 
 this
 ======
 1.refer the current class object
+
 syn:-this.x=x;
+
 2.used to sent the argument in same class constructor
+
 syn:-this(arg1.arg2);
 
 
