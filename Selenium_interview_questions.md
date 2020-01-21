@@ -1,5 +1,9 @@
 ###### Daily Activities
 ###### How often do you do do retesting & Regression testing
+For regression-  when ever there is major changes to any module regression testing is required
+
+Retest - it depends on fixing the bugs
+
 ###### string and stringbuffer difference
 > String is immutable, if you try to alter their values, another object gets created, 
 whereas StringBuffer and StringBuilder are mutable so they can change their values
