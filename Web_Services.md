@@ -60,3 +60,40 @@ REST:
 
 6. How to create mock services in local
 
+
+
+
+
+
+
+newman run https://www.getpostman.com/collections/e39daca8644f76689965 -e JivaHealth.postman_environment.json -n 1 --reporters cli,html --delay-request 20000 
+
+ 
+
+pm.test("Response time is less than 200ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(200);
+});
+
+ 
+
+tests["Response time is less than 500ms"] = responseTime < 500;
+
+ 
+
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+ 
+
+tests["Order id Verified"] = responseBody.has("order_id")
+
+ 
+
+
+var jsonData = JSON.parse(responseBody);
+postman.setEnvironmentVariable("uuid", jsonData.uuid);
+
+ 
+
+pm.globals.set("variable_key", "variable_value");
