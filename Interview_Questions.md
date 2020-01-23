@@ -8,3 +8,26 @@ An interface is like an abstract class; indeed, interfaces occupy the same names
 - Abstract class doesn't support multiple inheritance. Abstract class can provide the implementation of interface.
 
 - Interface supports multiple inheritance. Interface can't provide the implementation of abstract class.
+
+
+
+#### 2. Where do use public, final and static?
+
+Public -
+
+	>Public is a Java keyword which declares a member's access as public.
+	>Public members are visible to all other classes. 
+	>This means that any other class can access a public field or method. 
+	>Further, other classes can modify public fields unless the field is declared as final.
+
+Final -
+
+	>When we apply "final" keyword to a variable, the value of that variable remains constant. 
+	>(or) Once we declare a variable as final. the value of that variable cannot be changed.
+	>It is useful when a variable value does not change during the life time of a program
+
+Static -
+
+	>when we apply "static" keyword to a variable, it means it belongs to class.
+	>When we apply "static" keyword to a method, it means the method can be accessed without creating any instance of the class
+	
