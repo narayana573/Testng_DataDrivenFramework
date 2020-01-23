@@ -1,4 +1,4 @@
-** 1. What is Abstract and Interface? **
+#### 1. What is Abstract and Interface?
 
 An abstract class is a class that is only partially implemented by the programmer. It may contain one or more abstract methods. 
 An abstract method is simply a function definition that serves to tell the programmer that the method must be implemented in a child class.
