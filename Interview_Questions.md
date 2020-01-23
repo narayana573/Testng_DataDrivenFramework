@@ -74,6 +74,26 @@ Important terminology:
 #### 7. What are primitives & non-primitives? 
 
 	- Primitives : int, float, character and boolean
-	- Non-primitives:	 Strings, Arrays, Classes, Interface
+	- Non-primitives: Strings, Arrays, Classes, Interface
 
 	A variable of a non-primitive type doesn't contain the value directly; instead, it is a reference (similar to a pointer) to an object. (It is not possible in Java to create user-defined value types).
+
+
+#### 8. Difference b/w int and integer ?
+
+	- int is a primitive type. Variables of type int store the actual binary value for the integer you want to represent. 
+	int.parseInt("1") doesn't make sense because int is not a class and therefore doesn't have any methods.
+	
+	- Integer is a class and int is a primitive type.
+
+#### 9. Why is an array non-primitive? 
+
+	- Non-primitive, or reference data types, are the more sophisticated members of the data type family. They don't store the value, but store a reference to that value. 
+    - Instead of partNumber 4030023, Java keeps the reference, also called address, to that value, not the value itself.
+
+#### 10. What is the difference between array & arraylist? 
+
+	- Array is static in size that is fixed length data structure, One can not change the length after creating the Array object.
+	- ArrayList is dynamic in size . Each ArrayList object has instance variable capacity which indicates the size of the ArrayList. As elements are added to an ArrayList its capacity grows automatically.
+
+
