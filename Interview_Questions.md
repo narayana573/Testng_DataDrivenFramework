@@ -35,8 +35,8 @@ Static -
 
 #### 3. Can you declare a Final class? If yes, where can you use it?
 
-	Yes, A final class is simply a class that can't be extended.
-	By marking a class as final you disable a powerful and flexible feature of the language for that part of the code. 
-	Some classes however, should not (and in certain cases cannot) be designed to take sub classing into account in a good way. 
-	In these cases, it makes sense to mark the class as final, even though it limits OOPS. 
-	(Remember however that a final class can still extend another non-final class	
+	>Yes, A final class is simply a class that can't be extended.
+	>By marking a class as final you disable a powerful and flexible feature of the language for that part of the code. 
+	>Some classes however, should not (and in certain cases cannot) be designed to take sub classing into account in a good way. 
+	>In these cases, it makes sense to mark the class as final, even though it limits OOPS. 
+	>(Remember however that a final class can still extend another non-final class	
