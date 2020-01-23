@@ -110,3 +110,40 @@ Core OOPS concepts are:
 - Abstraction. Abstraction means using simple things to represent complexity. We all know how to turn the TV on, but we don’t need to know how it works in order to enjoy it. In Java, abstraction means simple things like objects, classes, and variables represent more complex underlying code and data. This is important because it lets avoid repeating the same work multiple times.
 
 
+#### 12. Explain Inheritance concept? 
+
+- Inheritance is the object-oriented programming concept where an object is based on another object. Inheritance is the mechanism of code reuse. The object that is getting inherited is called superclass and the object that inherits the superclass is called subclass.
+
+  
+
+#### 13. What is the difference between Abstract class and Interface? 
+
+- Main difference is methods of a Java interface are implicitly abstract and cannot have implementations. 
+- A Java abstract class can have instance methods that implements a default behaviour.
+
+2.Variables declared in a Java interface is by default final. An abstract class may contain non-final variables.
+
+3.Members of a Java interface are public by default. A Java abstract class can have the usual flavours of class members like private, protected, etc..
+
+4.Java interface should be implemented using keyword “implements”; A Java abstract class should be extended using keyword “extends”.
+
+5.An interface can extend another Java interface only, an abstract class can extend another Java class and implement multiple Java interfaces.
+
+6.A Java class can implement multiple interfaces but it can extend only one abstract class.
+
+7.Interface is absolutely abstract and cannot be instantiated; A Java abstract class also cannot be instantiated, but can be invoked if a main() exists.
+
+8.In comparison with java abstract classes, java interfaces are slow as it requires extra indirection.
+
+#### 14. What is polymorphism? 
+
+- Polymorphism is the concept where an object behaves differently in different situations. 
+- There are two types of polymorphism – compile time polymorphism and runtime polymorphism.
+- Compile time polymorphism is achieved by method overloading.
+- Runtime polymorphism is implemented when we have “IS-A” relationship between objects. This is also called as method overriding because subclass has to override the superclass method for runtime polymorphism.
+
+#### 15. Explain the difference between Method overloading & Method overriding with an example
+
+- Method overriding is when a child class redefines the same method as a parent class, with the same parameters. For example, the standard Java class java.util.LinkedHashSet extends java.util.HashSet. The method add() is overridden in LinkedHashSet. If you have a variable that is of type HashSet, and you call its add() method, it will call the appropriate implementation of add(), based on whether it is a HashSet or a LinkedHashSet. This is called polymorphism.
+
+- Method overloading is defining several methods in the same class, that accept different numbers and types of parameters. In this case, the actual method called is decided at compile-time, based on the number and types of arguments. For instance, the method System.out.println() is overloaded, so that you can pass ints as well as Strings, and it will call a different version of the method.
