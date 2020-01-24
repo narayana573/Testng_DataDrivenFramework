@@ -226,5 +226,6 @@ Interview 2(iTPC INDIA):
 13. parallel execution on crome & FF
 14. How to fast execute testcases of 5000
 15. tell me about sprint & agile
+16. hashmap and hashtable
 
 
