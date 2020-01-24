@@ -209,3 +209,23 @@ Interview 1:
 13. Differance b/w findElement & findElements
 14. How many types of Xpath & explain
 
+
+Interview 2:
+1. Element & Elements
+2. implicity, explicity & fluient
+3. Abstraction, interface
+4. Encapsulation
+5. Project framework
+6. Status codes
+7. 3rd party redirect steps
+8. exceptions you handled
+9. strayNotFoundException
+10. DB Contion
+11. Xpath - makemytrip
+        search results count
+12. your Framework for login page & dashboard
+13. parallel execution on crome & FF
+14. How to fast execute testcases of 5000
+15. tell me about sprint & agile
+
+
