@@ -209,8 +209,7 @@ Interview 1:
 13. Differance b/w findElement & findElements
 14. How many types of Xpath & explain
 
-
-Interview 2:
+Interview 2(iTPC INDIA):
 1. Element & Elements
 2. implicity, explicity & fluient
 3. Abstraction, interface
@@ -219,8 +218,8 @@ Interview 2:
 6. Status codes
 7. 3rd party redirect steps
 8. exceptions you handled
-9. strayNotFoundException
-10. DB Contion
+9. StaleElementReferenceException
+10. DB Connection
 11. Xpath - makemytrip
         search results count
 12. your Framework for login page & dashboard
