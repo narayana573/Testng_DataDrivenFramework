@@ -229,4 +229,5 @@ Interview 2(iTPC INDIA):
 16. hashmap and hashtable
 17. PageFactory
 18. jenkins
+19. Sprint Model
 
