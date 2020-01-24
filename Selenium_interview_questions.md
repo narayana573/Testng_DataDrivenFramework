@@ -227,5 +227,6 @@ Interview 2(iTPC INDIA):
 14. How to fast execute testcases of 5000
 15. tell me about sprint & agile
 16. hashmap and hashtable
+17. PageFactory
 
 
