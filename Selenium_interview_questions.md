@@ -230,4 +230,5 @@ Interview 2(iTPC INDIA):
 17. PageFactory
 18. jenkins
 19. Sprint Model
+20. Appium
 
