@@ -147,3 +147,19 @@ Core OOPS concepts are:
 - Method overriding is when a child class redefines the same method as a parent class, with the same parameters. For example, the standard Java class java.util.LinkedHashSet extends java.util.HashSet. The method add() is overridden in LinkedHashSet. If you have a variable that is of type HashSet, and you call its add() method, it will call the appropriate implementation of add(), based on whether it is a HashSet or a LinkedHashSet. This is called polymorphism.
 
 - Method overloading is defining several methods in the same class, that accept different numbers and types of parameters. In this case, the actual method called is decided at compile-time, based on the number and types of arguments. For instance, the method System.out.println() is overloaded, so that you can pass ints as well as Strings, and it will call a different version of the method.
+
+
+#### 16. What are the Types of Exception
+
+Checked Exception:
+
+- The classes which directly inherit Throwable class except RuntimeException and Error are known as checked exceptions 
+e.g. IOException, SQLException etc. Checked exceptions are checked at compile-time.
+
+Unchecked Exception:
+
+- The classes which inherit RuntimeException are known as unchecked exceptions 
+e.g.     ArithmeticException,
+	 NullPointerException,
+	 ArrayIndexOutOfBoundsException etc. 
+- Unchecked exceptions are not checked at compile-time, but they are checked at runtime.
