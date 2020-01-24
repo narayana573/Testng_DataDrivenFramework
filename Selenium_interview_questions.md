@@ -231,4 +231,5 @@ Interview 2(iTPC INDIA):
 18. jenkins
 19. Sprint Model
 20. Appium
-
+21. how to inspect element for android app
+22. is APK required to automate in appium.
