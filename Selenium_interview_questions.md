@@ -247,5 +247,12 @@ Cognizant:
 
 1. Framework structure
 2. Excel connect program
-3. Star program
+3. Program to print half pyramid using *
+```
+*
+* *
+* * *
+* * * *
+* * * * *
+```
 
