@@ -233,3 +233,19 @@ Interview 2(iTPC INDIA):
 20. Appium
 21. how to inspect element for android app
 22. is APK required to automate in appium.
+
+
+Capgemini:
+
+1. How to declare Webdriver global in single place
+2. If first method fails how to skip rest Methods without testng annatoations
+3. Find characters 's' in name's
+
+
+
+Cognizant:
+
+1. Framework structure
+2. Excel connect program
+3. Star program
+
