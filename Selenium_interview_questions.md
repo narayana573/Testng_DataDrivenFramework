@@ -262,6 +262,7 @@ Cognizant:
 NCR
 
 1. String  2 character  both side  Strinh="asdfghjklaqweff4";
+
 find the "a" & "f" count and the position
 2. Xpath for preseding
 ```
