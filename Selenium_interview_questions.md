@@ -272,3 +272,24 @@ NCR
     <div id=a>
 ```
 3. Table last record to check with same employ
+
+
+
+Zenq:
+
+1. Grid
+2. Parallel execution
+3. Parameters in test ng and XML file
+4. Not declared parameters in testng file
+5. without parameter what will happen 
+6. Fail test cases
+7. Stale element exception how to handle
+8. String '1qwerty'. Program
+9. Status codes
+10. Get and put diff and features
+11. Selenium exceptions
+12. Different ways to skip test cases
+13. Troubleshooting for not identifying element find the solution 
+14. Docker 
+15. kubernetes
+16. jenkins
