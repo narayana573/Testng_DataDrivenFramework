@@ -284,7 +284,7 @@ Zenq:
 5. without parameter what will happen 
 6. Fail test cases
 7. Stale element exception how to handle
-8. String '1qwerty'. Program
+8. String '1qwerty123z'. Program
 9. Status codes
 10. Get and put diff and features
 11. Selenium exceptions
@@ -293,3 +293,5 @@ Zenq:
 14. Docker 
 15. kubernetes
 16. jenkins
+17. Java 8 Features
+18. Selenium 3.141 features
