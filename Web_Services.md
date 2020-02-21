@@ -32,19 +32,27 @@ TRACE : Performs a message loop-back test along the path to the target resource.
 
 4. Different status codes
 
-200 : Ok <br>
-201 : Created <br>
-204 : No Content <br>
-301 : Redirects <br>
-400 : Bad Request <br>
-401 : Unauthorized <br>
-403 : Forbidden <br>
-404 : Not found <br>
-405 : Method Not Allowed <br>
-409 : Conflict <br>
-429 : Too Many Requests	 <br>
-500 : interal server error <br>
-503 : Service Unavailable	 <br>
+
+
+|	                      |                                                                                                          |
+|	:--- 	              |	:--- 	                                                                                                 |
+|	200 OK	              |	 The request is  OK.                                                                                     | 
+|	201 Created	          |	The request is complete, and a new resource is created .	                                             |
+|	202 Accepted	      |	The request is accepted for processing, but the processing is not complete.	                             |
+|		                  |		                                                                                                     |
+|	300 Multiple Choices  |	A link list. The user can select a link and go to that location.	                                     |
+|	301 Moved Permanently |	The requested page has moved to a new url .	                                                             |
+|		                  |		                                                                                                     |
+|	400 Bad Request	      |The server did not understand the request.	                                                             |
+|	401 Unauthorized	  |	The requested page needs a username and a password.	                                                     |
+|	403 Forbidden	      |	Access is forbidden to the requested page.	                                                             |
+|	404 Not Found	      |	The server can not find the requested page.	                                                             |
+|		                  |		                                                                                                     |
+|	500 Internal Server Error	     |	The request was not completed. The server met an unexpected condition.	                     |
+|	502 Bad Gateway	      |	The request was not completed. The server received an invalid response from the upstream server.	     |
+|	503 Service Unavailable|	The request was not completed. The server is temporarily overloading or down.	                     |
+|	504 Gateway Timeout	   |	The gateway has timed out.	                                                                         |
+
 
 
 5. Difference between soap & rest
