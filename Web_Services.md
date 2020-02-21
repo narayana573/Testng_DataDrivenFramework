@@ -17,7 +17,7 @@ GET : GET is used to request data from a specified resource. <br>
 HEAD : HEAD is almost identical to GET, but without the response body. <br>
 
 POST : to a URL creates a child resource at a server defined URL. Sending the same post packet twice will create two resources <br>
-PUT : to a URL creates/replaces the resource in its entirety at the client defined URL. <br>
+PUT : to a URL creates/replaces the resource in its entirety at the client defined URL.PUT replaces the resource at the known url if it already exists, so sending the same request twice has no effect. <br>
 PATCH : to a URL updates part of the resource at that client defined URL. <br>
 
 DELETE : The DELETE method deletes the specified resource. <br>
