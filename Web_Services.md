@@ -15,13 +15,15 @@ API:
 
 GET : GET is used to request data from a specified resource. <br>
 HEAD : HEAD is almost identical to GET, but without the response body. <br>
-POST : POST is used to send data to a server to create/update a resource. <br>
-PUT : PUT is used to send data to a server to create/update a resource. <br>
+
+POST : to a URL creates a child resource at a server defined URL. Sending the same post packet twice will create two resources <br>
+PUT : to a URL creates/replaces the resource in its entirety at the client defined URL. <br>
+PATCH : to a URL updates part of the resource at that client defined URL. <br>
+
 DELETE : The DELETE method deletes the specified resource. <br>
 CONNECT : Establishes a tunnel to the server identified by a given URI. <br>
 OPTIONS : The OPTIONS method describes the communication options for the target resource. <br>
 TRACE : Performs a message loop-back test along the path to the target resource. <br>
-PATCH : PATCH can be used to update partial resources <br>
 
 
 
