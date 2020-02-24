@@ -250,3 +250,27 @@ mvn --version
 | StaleElementReferenceException          | StaleElementReferenceException is thrown when an object for a particular web element was created in the program without any problem and however; this element is no longer present in the window. 									             |
 
 
+
+
+Palindrome Program in Java
+
+```
+
+public class Palindrome {
+ public static void main(String args[]) {
+  String a, b = "";
+  Scanner s = new Scanner(System.in);
+  System.out.print("Enter the string you want to check:");
+  a = s.nextLine();
+  int n = a.length();
+  for (int i = n - 1; i >= 0; i--) {
+   b = b + a.charAt(i);
+  }
+  if (a.equalsIgnoreCase(b)) {
+   System.out.println("The string is palindrome.");
+  } else {
+   System.out.println("The string is not palindrome.");
+  }
+ }
+}
+```
