@@ -296,3 +296,16 @@ Zenq:
 16. jenkins
 17. Java 8 Features
 18. Selenium 3.141 features
+
+
+
+
+
+
+
+
+
+
+
+
+https://javatutorial95.blogspot.com/2017/08/interview-questions-on-interface-in-java.html
