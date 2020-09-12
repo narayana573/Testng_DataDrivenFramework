@@ -107,3 +107,9 @@ postman.setEnvironmentVariable("uuid", jsonData.uuid);
  
 
 pm.globals.set("variable_key", "variable_value");
+
+
+
+
+Soft & Hard Assersion
+
