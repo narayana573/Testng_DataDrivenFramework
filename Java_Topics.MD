@@ -168,5 +168,12 @@ syn:-this.x=x;
 2.used to sent the argument in same class constructor
 
 syn:-this(arg1.arg2);
+this can also be used to:
+
+    Invoke current class constructor
+    Invoke current class method
+    Return the current class object
+    Pass an argument in the method call
+    Pass an argument in the constructor call
 
 
