@@ -200,7 +200,7 @@ Interview 1:
 4. Explain Run Time polimarphisum & write the Syntax
 5. What is method overloading & overridding
 6. Differance b/w Abstract & Interface
-7. Write syntax for Implicity wait & Explicity wait
+7. Write syntax for Implicit, Explicit, & Fluent Wait
 8. How return data of findElements & iframs
 9. Write the code for find element from the table , for the text have "Name"
 9. Write syntax for How to moving existing frame to previous frame
