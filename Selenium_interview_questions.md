@@ -304,8 +304,21 @@ Zenq:
 
 
 
-
+Infor:
+1. waits 
+2. Access modifiers
+3. Beoremethod  Aftermethod beforeclass
+4. Prallel executiion
+5. Depends
+6. element
+7. elements
+8. handel dynamic elements
+9. whindow handel windows handes
+10. driver deriver = new webDriver & Chrome deriver = new Chrome deriver()
+11. Fibnic
 
 
 
 https://javatutorial95.blogspot.com/2017/08/interview-questions-on-interface-in-java.html
+
+
