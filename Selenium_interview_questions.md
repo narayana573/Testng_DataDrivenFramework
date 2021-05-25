@@ -319,18 +319,18 @@ Infor:
 
 
 
-1 Roles & Responsibility
-2 My role in Project
-3 assert and verify
-4 Implecit wait , explict wait & fluent wait
-5 Scenario: one page sudden alert click ook and proceed next step
-6 on button click multiple tabs opens how to navigate to particult tab (tab count)
-7 cross browser testing
-8 how to manuplate dom  to change button colour
-9 Relative & Absolute xpath
-10 Driver quit & close
-11 how to take screenshot in selenium
-12 Headless browser in selenium
+1. Roles & Responsibility
+2. My role in Project
+3. assert and verify
+4. Implecit wait , explict wait & fluent wait
+5. Scenario: one page sudden alert click ook and proceed next step
+6. on button click multiple tabs opens how to navigate to particult tab (tab count)
+7. cross browser testing
+8. how to manuplate dom  to change button colour
+9. Relative & Absolute xpath
+10. Driver quit & close
+11. how to take screenshot in selenium
+12. Headless browser in selenium
 
 https://javatutorial95.blogspot.com/2017/08/interview-questions-on-interface-in-java.html
 
