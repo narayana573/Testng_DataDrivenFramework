@@ -335,3 +335,41 @@ Infor:
 https://javatutorial95.blogspot.com/2017/08/interview-questions-on-interface-in-java.html
 
 
+
+
+
+
+
+Cognizant
+
+Java:
+Difference B/w List & Map
+how to use Overload concept in selenium
+About Constructor - Yes/No
+Return Type :
+Static :
+Final :
+Private :
+Overload :
+Override :
+
+ 
+
+Selenium:
+What is difference between = & ==
+Difference Between String Buffer & String Build
+Which method is use to move footer of the page
+How can we link multiple links
+How to handle broken links
+When you write the xpath & which type
+What the different type methods for check box
+what is the method for Right click on mouse
+What is the methos for double click of mouse
+Explain about your framework
+How to run test cases, tell me in 3 steps
+How to generate reports
+
+ 
+
+Manual:
+Exhaustive Testing
