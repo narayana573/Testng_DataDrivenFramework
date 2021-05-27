@@ -343,31 +343,31 @@ https://javatutorial95.blogspot.com/2017/08/interview-questions-on-interface-in-
 Cognizant
 
 Java:
-Difference B/w List & Map
-how to use Overload concept in selenium
-About Constructor - Yes/No
-Return Type :
-Static :
-Final :
-Private :
-Overload :
-Override :
+1. Difference B/w List & Map
+2. how to use Overload concept in selenium
+3. About Constructor - Yes/No
+4. Return Type :
+5. Static :
+6. Final :
+7. Private :
+8. Overload :
+9. Override :
 
  
 
 Selenium:
-What is difference between = & ==
-Difference Between String Buffer & String Build
-Which method is use to move footer of the page
-How can we link multiple links
-How to handle broken links
-When you write the xpath & which type
-What the different type methods for check box
-what is the method for Right click on mouse
-What is the methos for double click of mouse
-Explain about your framework
-How to run test cases, tell me in 3 steps
-How to generate reports
+11. What is difference between = & ==
+12. Difference Between String Buffer & String Build
+13. Which method is use to move footer of the page
+14. How can we link multiple links
+15. How to handle broken links
+16. When you write the xpath & which type
+17. What the different type methods for check box
+18. what is the method for Right click on mouse
+19. What is the methos for double click of mouse
+20. Explain about your framework
+21. How to run test cases, tell me in 3 steps
+22. How to generate reports
 
  
 
