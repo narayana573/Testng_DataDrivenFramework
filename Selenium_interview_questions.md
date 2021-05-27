@@ -355,7 +355,7 @@ Java:
 
  
 
-Selenium:
+10. Selenium:
 11. What is difference between = & ==
 12. Difference Between String Buffer & String Build
 13. Which method is use to move footer of the page
@@ -371,5 +371,5 @@ Selenium:
 
  
 
-Manual:
-Exhaustive Testing
+23. Manual:
+23.1 Exhaustive Testing
