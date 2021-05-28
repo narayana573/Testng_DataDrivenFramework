@@ -352,9 +352,6 @@ Java:
 7. Private :
 8. Overload :
 9. Override :
-
- 
-
 10. Selenium:
 11. What is difference between = & ==
 12. Difference Between String Buffer & String Build
@@ -368,8 +365,4 @@ Java:
 20. Explain about your framework
 21. How to run test cases, tell me in 3 steps
 22. How to generate reports
-
- 
-
-23. Manual:
-23.1 Exhaustive Testing
+23. Manual Exhaustive Testing
