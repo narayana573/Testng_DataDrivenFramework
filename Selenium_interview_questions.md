@@ -360,7 +360,21 @@ Java:
 15. How to handle broken links
 16. When you write the xpath & which type
 17. What the different type methods for check box
-18. what is the method for Right click on mouse
+    ```
+{
+// Selecting CheckBox		
+        WebElement option1 = driver.findElement(By.id("vfb-6-0"));							
+
+        // This will Toggle the Check box 		
+        option1.click();			
+
+        // Check whether the Check box is toggled on 		
+        if (option1.isSelected()) {					
+            System.out.println("Checkbox is Toggled On");					
+
+        }
+```
+19. what is the method for Right click on mouse
 ```
 {
   Actions actions = new Actions(driver);
