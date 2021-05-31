@@ -358,8 +358,12 @@ Java:
 13. Which method is use to move footer of the page
 14. How can we link multiple links
 15. How to handle broken links
-16. When you write the xpath & which type
-17. What the different type methods for check box
+   ```
+    https://www.toolsqa.com/selenium-webdriver/find-broken-links-in-selenium/
+   ```
+    
+17. When you write the xpath & which type
+18. What the different type methods for check box
   ```
 { 
         // Selecting CheckBox		
