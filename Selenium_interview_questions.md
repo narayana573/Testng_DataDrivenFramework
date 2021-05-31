@@ -361,9 +361,9 @@ Java:
 16. When you write the xpath & which type
 17. What the different type methods for check box
 18. what is the method for Right click on mouse
-     ```
+```
 {
- Actions actions = new Actions(driver);
+  Actions actions = new Actions(driver);
 //Retrieve WebElement to perform right click
 WebElement btnElement = driver.findElement(By.id("rightClickBtn"));
 //Right Click the button to display Context Menu&nbsp;
