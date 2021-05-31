@@ -356,7 +356,7 @@ Java:
 11. What is difference between = & ==
 12. Difference Between String Buffer & String Build
 13. Which method is use to move footer of the page
-14. How can we link multiple links
+14. How to list multiple footer links ?
 15. How to handle broken links
    ```
     https://www.toolsqa.com/selenium-webdriver/find-broken-links-in-selenium/
