@@ -360,9 +360,9 @@ Java:
 15. How to handle broken links
 16. When you write the xpath & which type
 17. What the different type methods for check box
-    ```
-{
-// Selecting CheckBox		
+  ```
+{ 
+        // Selecting CheckBox		
         WebElement option1 = driver.findElement(By.id("vfb-6-0"));							
 
         // This will Toggle the Check box 		
