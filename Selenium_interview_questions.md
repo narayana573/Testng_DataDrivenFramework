@@ -371,7 +371,7 @@ actions.contextClick(btnElement).perform();
 }
 ```
 19. What is the methos for double click of mouse
-     ```
+```
 {
  //Double click on element
      WebElement ele = driver.findElement(By.xpath("XPath of the element")); 
