@@ -361,15 +361,23 @@ Java:
 16. When you write the xpath & which type
 17. What the different type methods for check box
 18. what is the method for Right click on mouse
-      Actions actions = new Actions(driver);
-     //Retrieve WebElement to perform right click
-     WebElement btnElement = driver.findElement(By.id("rightClickBtn"));
-      //Right Click the button to display Context Menu&nbsp;
-     actions.contextClick(btnElement).perform();
+     ```
+{
+ Actions actions = new Actions(driver);
+//Retrieve WebElement to perform right click
+WebElement btnElement = driver.findElement(By.id("rightClickBtn"));
+//Right Click the button to display Context Menu&nbsp;
+actions.contextClick(btnElement).perform();
+}
+```
 19. What is the methos for double click of mouse
-     //Double click on element
+     ```
+{
+ //Double click on element
      WebElement ele = driver.findElement(By.xpath("XPath of the element")); 
 act.doubleClick(ele).perform();
+}
+```
 21. Explain about your framework
 22. How to run test cases, tell me in 3 steps
 23. How to generate reports
