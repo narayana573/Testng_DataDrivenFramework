@@ -351,19 +351,34 @@ Java:
 6. Final :
 7. Private :
 8. Overload :
-9. Override :
+9. Override : 
 10. Selenium:
 11. What is difference between = & ==
 12. Difference Between String Buffer & String Build
+   ```
+    StringBuffer:
+     1. StringBuffer is synchronized i.e. thread safe. It means two threads can't call the methods of StringBuffer simultaneously.
+     2. StringBuffer is less efficient than StringBuilder.
+
+    StringBuilder:
+     1. StringBuilder is non-synchronized i.e. not thread safe. It means two threads can call the methods of StringBuilder simultaneously.
+     2. StringBuilder is more efficient than StringBuffer.
+   ``` 
+
 13. Which method is use to move footer of the page
 14. How to list multiple footer links ?
+   ```
+     // Get Footer element which contains all footer links
+     // Then "findElements" with anchor tag
+     // create loop based upon number of links to traverse all links
+   ```
 15. How to handle broken links
    ```
     https://www.toolsqa.com/selenium-webdriver/find-broken-links-in-selenium/
    ```
     
-17. When you write the xpath & which type
-18. What the different type methods for check box
+16. When you write the xpath & which type
+17. What the different type methods for check box
   ```
 { 
         // Selecting CheckBox		
@@ -378,7 +393,7 @@ Java:
 
         }
 ```
-19. what is the method for Right click on mouse
+18. what is the method for Right click on mouse
 ```
 {
   Actions actions = new Actions(driver);
@@ -396,7 +411,7 @@ actions.contextClick(btnElement).perform();
 act.doubleClick(ele).perform();
 }
 ```
-21. Explain about your framework
-22. How to run test cases, tell me in 3 steps
-23. How to generate reports
-24. Manual Exhaustive Testing
+20. Explain about your framework
+21. How to run test cases, tell me in 3 steps
+22. How to generate reports
+23. Manual Exhaustive Testing
