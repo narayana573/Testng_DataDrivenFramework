@@ -322,15 +322,21 @@ Infor:
 1. Roles & Responsibility
 2. My role in Project
 3. assert and verify
-4. Implecit wait , explict wait & fluent wait
-5. Scenario: one page sudden alert click ook and proceed next step
-6. on button click multiple tabs opens how to navigate to particult tab (tab count)
-7. cross browser testing
-8. how to manuplate dom  to change button colour
-9. Relative & Absolute xpath
-10. Driver quit & close
-11. how to take screenshot in selenium
-12. Headless browser in selenium
+  +hard assertion: hard validation: if a hard assertion is getting failed: immediately test case will me marked as failed and test case will be terminated.
+
+  +soft assertion : soft validation: if a soft assertion is getting failed: test case will not be marked as passed as well as next lines will be executed
+
+  +assertAll() : is used to mark the test case as failed, if any soft assertion is getting failed
+
+5. Implecit wait , explict wait & fluent wait
+6. Scenario: one page sudden alert click ook and proceed next step
+7. on button click multiple tabs opens how to navigate to particult tab (tab count)
+8. cross browser testing
+9. how to manuplate dom  to change button colour
+10. Relative & Absolute xpath
+11. Driver quit & close
+12. how to take screenshot in selenium
+13. Headless browser in selenium
 
 https://javatutorial95.blogspot.com/2017/08/interview-questions-on-interface-in-java.html
 
