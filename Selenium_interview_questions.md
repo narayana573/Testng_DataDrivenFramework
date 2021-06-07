@@ -423,3 +423,35 @@ act.doubleClick(ele).perform();
 21. How to run test cases, tell me in 3 steps
 22. How to generate reports
 23. Manual Exhaustive Testing
+
+
+
+coforg:
+
+1. Java 8 features
+
+
+2. what is Abstraction
+
+
+3. what is  Interface
+
+
+4.In your project where you use it ( interface & abstraction)
+
+
+5. In interface can we extend private ....
+
+
+6. Rest assured dependencies
+
+
+7.Test ng annotations
+
+
+
+8. Reverse string using recursion or own logic
+
+
+
+9. App logs find how
