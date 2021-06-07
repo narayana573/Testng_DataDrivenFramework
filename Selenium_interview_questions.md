@@ -426,7 +426,7 @@ act.doubleClick(ele).perform();
 
 
 
-coforg:
+Coforge:
 
 1. Java 8 features
 
@@ -437,7 +437,7 @@ coforg:
 3. what is  Interface
 
 
-4.In your project where you use it ( interface & abstraction)
+4. In your project where you use it ( interface & abstraction)
 
 
 5. In interface can we extend private ....
@@ -446,7 +446,7 @@ coforg:
 6. Rest assured dependencies
 
 
-7.Test ng annotations
+7. Test ng annotations
 
 
 
