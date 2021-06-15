@@ -455,3 +455,27 @@ Coforge:
 
 
 9. App logs find how
+
+
+
+Mars Telecom:
+
+1. Rest Assured Methods
+
+2. Rest Assured with java
+
+3. what is url
+
+4. Testng XML file
+
+5. jmeter response capture
+
+6. Test in postman
+
+7. POST Method explain with java & BDD
+
+8. excluding in testng xml file
+
+9. Response 10th value capture
+
+10. postman 10th value capture
