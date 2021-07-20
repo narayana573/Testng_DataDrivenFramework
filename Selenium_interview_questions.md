@@ -487,4 +487,7 @@ Anaqua:
 2. what is Query Parm & Path Param
 3. Status code for Duplicate record
 4. Postman request Encription type
-5. 
+5. List down the status codes
+6. Refesh token handling in rest assured
+7. Authentication Methods used
+8. 
