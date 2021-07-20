@@ -479,3 +479,12 @@ Mars Telecom:
 9. Response 10th value capture
 
 10. postman 10th value capture
+
+
+Anaqua:
+
+1. What is Head
+2. what is Query Parm & Path Param
+3. Status code for Duplicate record
+4. Postman request Encription type
+5. 
