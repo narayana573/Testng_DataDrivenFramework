@@ -492,3 +492,4 @@ Anaqua:
 7. Authentication Methods used
 8. Challanges faced in API Automation
 9. have you ever worked on Swagger 
+10. difference between array and arraylist
