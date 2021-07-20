@@ -486,7 +486,7 @@ Anaqua:
 1. What is Head
 2. what is Query Parm & Path Param
 3. Status code for Duplicate record
-4. Postman request Encription type
+4. which type of encoding does postman accept (Postman accepts Base64 encoding only) 
 5. List down the status codes
 6. Refesh token handling in rest assured
 7. Authentication Methods used
