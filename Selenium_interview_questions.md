@@ -493,3 +493,18 @@ Anaqua:
 8. Challanges faced in API Automation
 9. have you ever worked on Swagger 
 10. difference between array and arraylist
+
+
+TCS:
+
+1. Response Header read  Validation
+2. how to validaton application type in response
+3. Soap Service in restassured
+4. diff of soap and rest services
+5. response & DB validation
+6. excel Read sysntax
+7. db Connection Syntax
+8. pom model class having what fields
+9. data driven framework expain in Detail
+10. propertiles files why for locators
+
