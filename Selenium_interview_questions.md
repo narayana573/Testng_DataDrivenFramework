@@ -507,4 +507,5 @@ TCS:
 8. pom model class having what fields
 9. data driven framework expain in Detail
 10. propertiles files why for locators
+11. diff b/w micro Service  & service 
 
