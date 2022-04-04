@@ -110,6 +110,15 @@ Single Inheritance : In single inheritance, subclasses inherit the features of o
     Any class that contains one or more abstract methods must also be declared with abstract keyword.
     There can be no object of an abstract class.That is, an abstract class can not be directly instantiated with the new operator.
     An abstract class can have parametrized constructors and default constructor is always present in an abstract class.
+    
+    Points to Remember
+
+    An abstract class must be declared with an abstract keyword.
+    It can have abstract and non-abstract methods.
+    It cannot be instantiated.
+    It can have constructors and static methods also.
+    It can have final methods which will force the subclass not to change the body of the method.
+
 
 ```
 public class Student{ 
