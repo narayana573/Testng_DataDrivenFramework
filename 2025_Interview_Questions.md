@@ -1,3 +1,5 @@
+## Value Labs
+
 ## 2. Command to Create/Initialize the WebDriver
 
 WebDriver driver = new ChromeDriver();
@@ -123,3 +125,112 @@ public void testMethod() {
     System.out.println("This test will run 3 times.");
 }
 ```
+
+
+
+### Global Logic
+
+
+
+
+### 1. How do you automate multiple tabs in Selenium?
+
+To automate multiple tabs:
+
+```java
+// Open new tab using JavaScript
+((JavascriptExecutor) driver).executeScript("window.open()");
+
+// Get window handles
+ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
+
+// Switch to the new tab
+driver.switchTo().window(tabs.get(1));
+```
+
+### 2. What is the predefined method for switching tabs in Selenium?
+
+Use:
+
+```java
+driver.switchTo().window(windowHandle);
+```
+
+This method is used to switch between multiple windows or tabs.
+
+### 3. How many types of locators?
+
+Selenium supports **8 types** of locators:
+
+1. ID
+2. Name
+3. Class Name
+4. Tag Name
+5. Link Text
+6. Partial Link Text
+7. CSS Selector
+8. XPath
+
+### 4. How do you redirect one URL to another URL in Selenium?
+
+You can redirect using:
+
+```java
+driver.navigate().to("https://new-url.com");
+```
+
+Or:
+
+```java
+driver.get("https://new-url.com");
+```
+
+### 5. Write the XPath for Flipkart Search mobile in search box and find the no of records text containing "SAMSUNG Galaxy"
+
+```xpath
+//div[contains(text(), 'SAMSUNG Galaxy')]
+```
+
+(Refine it further using DOM structure if needed.)
+
+### 6. How to re-run the failed test cases in a testing mechanism?
+
+Using **TestNG**:
+
+1. Run tests with a listener like `ITestListener` or use `testng-failed.xml`.
+2. Command:
+
+```bash
+java -cp "<your-classpath>" org.testng.TestNG test-output/testng-failed.xml
+```
+
+### 7. Java Program to count the word "test" in a string
+
+```java
+public class TestCounter {
+    public static void main(String[] args) {
+        String input = "test testing";
+        String wordToFind = "test";
+
+        int count = 0;
+        for (int i = 0; i <= input.length() - wordToFind.length(); i++) {
+            if (input.substring(i, i + wordToFind.length()).equals(wordToFind)) {
+                count++;
+            }
+        }
+
+        System.out.println("The word '" + wordToFind + "' appears " + count + " time(s).");
+    }
+}
+```
+
+**Output:**
+
+```
+The word 'test' appears 2 time(s).
+```
+
+---
+
+End of Q\&A
+
