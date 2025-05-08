@@ -397,4 +397,165 @@ System.out.println("Last Employee: " + empName);
 ---
 
 
+# Interview Q&A Compilation
+
+This document provides concise question-and-answer style responses for common interview topics in Selenium, Java, TestNG, API testing, and related tools.
+
+---
+
+## Zenq
+
+**Q: What is Selenium Grid?**  
+A: Selenium Grid allows you to run tests in parallel on multiple machines and browsers, improving test execution time.
+
+**Q: How do you achieve parallel execution in TestNG?**  
+A: Set `parallel` attribute in testng.xml (e.g., `<suite parallel="tests" thread-count="5">`) or use `@DataProvider(parallel=true)`.
+
+**Q: How are parameters defined in TestNG XML & accessed in code?**  
+A: Define in testng.xml under `<parameter name="paramName" value="value"/>`. Access in test with `@Parameters("paramName")`.
+
+**Q: What happens if a declared parameter is missing?**  
+A: TestNG throws `org.testng.TestNGException: Parameter ... not found.`
+
+**Q: How do you fail a test case deliberately?**  
+A: Use `Assert.fail("Reason")` or throw an exception in the test method.
+
+**Q: What is a StaleElementReferenceException and how do you handle it?**  
+A: Occurs when the referenced element is no longer in DOM. Handle by re-finding the element or using WebDriverWait until the element is present.
+
+---
+
+## Infor
+
+**Q: Explain different waits in Selenium.**  
+A: 
+- Implicit Wait: Applied globally, waits for element presence.  
+- Explicit Wait: Waits for a specific condition using WebDriverWait.  
+- Fluent Wait: Like explicit, with polling frequency and ignore exceptions.
+
+**Q: What are TestNG annotations for setup and teardown?**  
+A:  
+- `@BeforeClass` / `@AfterClass` for class-level setup/teardown.  
+- `@BeforeMethod` / `@AfterMethod` for method-level setup/teardown.
+
+**Q: How do you handle dynamic elements?**  
+A: Use robust locators with `contains()`, `starts-with()` in XPath or CSS selectors, and explicit waits.
+
+**Q: How do you switch between browser tabs/windows?**  
+A: Use `driver.getWindowHandles()` to get handles, iterate, and `driver.switchTo().window(handle)` to switch.
+
+---
+
+## Cognizant
+
+**Q: Difference between List and Map in Java?**  
+A:  
+- List: Ordered collection allowing duplicates, accessed by index.  
+- Map: Key-value pairs, no duplicate keys, values accessed by keys.
+
+**Q: Explain method overloading vs overriding.**  
+A:  
+- Overloading: Same method name, different parameters in same class.  
+- Overriding: Subclass provides specific implementation of superclass method.
+
+**Q: When to use StringBuffer vs StringBuilder?**  
+A:  
+- StringBuffer: Thread-safe (synchronized), use when multiple threads modify the sequence.  
+- StringBuilder: Not synchronized, faster, use in single-thread context.
+
+**Q: How do you perform right-click and double-click actions?**  
+A:  
+```java
+Actions actions = new Actions(driver);
+actions.contextClick(element).perform(); // Right-click
+actions.doubleClick(element).perform();  // Double-click
+```
+
+---
+
+## Coforge
+
+**Q: Name some Java 8 features.**  
+A: Lambda expressions, Stream API, Functional interfaces, Default and static methods in interfaces.
+
+**Q: What is abstraction and how is it achieved in Java?**  
+A: Abstraction hides implementation details. Achieved using abstract classes and interfaces.
+
+**Q: Can interfaces have private methods?**  
+A: Yes, since Java 9, interfaces can have private methods for code reuse within default methods.
+
+---
+
+## Mars Telecom
+
+**Q: How do you write a GET and POST request in REST Assured?**  
+A:  
+```java
+given().when().get("/endpoint").then().statusCode(200);
+given().body(payload).when().post("/endpoint").then().statusCode(201);
+```
+
+**Q: What is the purpose of TestNG XML?**  
+A: Configures test suites, test groups, parameters, parallel execution, and listeners in TestNG.
+
+---
+
+## Anaqua
+
+**Q: Difference between Query Param and Path Param?**  
+A:  
+- Query Param: Appended after `?`, e.g., `?id=1`.  
+- Path Param: Part of URL path, e.g., `/users/{id}`.
+
+**Q: What status code is returned for duplicate records?**  
+A: 409 Conflict.
+
+**Q: How do you refresh tokens in API tests?**  
+A: Capture refresh token and use it to request a new access token endpoint, update headers for subsequent calls.
+
+---
+
+## TCS
+
+**Q: How do you validate response headers in REST Assured?**  
+A:  
+```java
+given().when().get("/endpoint").then().header("Content-Type", "application/json");
+```
+
+**Q: Difference between SOAP and REST?**  
+A:  
+- SOAP: Uses XML, WSDL, strict standards.  
+- REST: Uses JSON/XML, lighter, uses HTTP verbs.
+
+**Q: How do you read Excel files in Java?**  
+A: Use Apache POI library:  
+```java
+Workbook wb = WorkbookFactory.create(new FileInputStream(file));
+Sheet sheet = wb.getSheet("Sheet1");
+```
+
+---
+
+## HCL
+
+**Q: How do you reverse a String in Java?**  
+A:  
+```java
+String reversed = new StringBuilder(str).reverse().toString();
+```
+
+**Q: How do you concatenate two arrays?**  
+A:  
+```java
+int[] result = Arrays.copyOf(a, a.length + b.length);
+System.arraycopy(b, 0, result, a.length, b.length);
+```
+
+**Q: Explain polymorphism with examples.**  
+A:  
+- Compile-time: Method overloading.  
+- Run-time: Method overriding using inheritance.
+
+
 
