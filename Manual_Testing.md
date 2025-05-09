@@ -31,3 +31,57 @@
 * Low
 * Medium
 * High
+
+
+
+
+
+## Test Plan vs Test Strategy (Interview Notes)
+
+### Test Plan
+
+- **Definition**: A detailed document describing the scope, approach, resources, and schedule of testing activities.
+- **Objective**: To outline how testing will be carried out for a specific project.
+- **Prepared by**: Test Lead / QA Manager
+- **Scope**:
+  - Test objectives
+  - Test items (features to be tested)
+  - Types of testing (Functional, Regression, Smoke, etc.)
+  - Testing schedule & milestones
+  - Entry and Exit criteria
+  - Resources and responsibilities
+  - Risk identification & mitigation
+  - Tools to be used
+
+- **Project-specific**: Yes
+- **Example**: Test plan for an e-commerce checkout feature
+
+---
+
+### Test Strategy
+
+- **Definition**: A high-level document that outlines the general approach and principles for testing across the organization or program.
+- **Objective**: To define the overall testing approach and standards to be followed.
+- **Prepared by**: QA Manager / Test Architect
+- **Scope**:
+  - Testing approach for all phases
+  - Test levels and test types
+  - Test environment setup
+  - Defect management process
+  - Automation strategy
+  - Metrics and reporting standards
+
+- **Project-specific**: No (applies across multiple projects)
+- **Example**: Organization-wide test strategy defining how automation will be handled across all products
+
+---
+
+### Key Differences
+
+| Aspect            | Test Plan                        | Test Strategy                         |
+|-------------------|----------------------------------|----------------------------------------|
+| Level             | Project level                    | Organization or program level          |
+| Prepared by       | Test Lead / QA Manager           | QA Manager / Test Architect            |
+| Focus             | What, when, who, and how of testing for a project | Overall testing principles and approach |
+| Dynamic/Static    | Dynamic – changes per project    | Static – rarely changes                |
+| Detail            | Detailed & actionable            | High-level & directional               |
