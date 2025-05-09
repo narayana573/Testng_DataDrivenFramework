@@ -202,6 +202,13 @@ Using **TestNG**:
 
 ```bash
 java -cp "<your-classpath>" org.testng.TestNG test-output/testng-failed.xml
+
+Combine With RetryAnalyzer (Best Practice)
+To rerun failed tests automatically during the same run, combine this with a custom RetryAnalyzer (as we discussed earlier). This way:
+
+RetryAnalyzer → retries during the run
+
+testng-failed.xml → lets you re-run final failed tests manually
 ```
 
 ### 7. Java Program to count the word "test" in a string
