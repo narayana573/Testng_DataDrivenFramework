@@ -465,3 +465,165 @@ This document outlines key TestNG concepts frequently discussed in Selenium inte
     // (Refer to the CustomTestListener example above for basic reporting within a listener)
 
     // For more advanced reporting,
+
+
+
+
+
+    # Running Failed Test Cases and Utilizing Retry Listeners in TestNG
+
+This document outlines how to run failed test cases using TestNG's built-in features and other common approaches, along with how to implement and utilize a retry listener.
+
+## Running Failed Test Cases
+
+### 1. TestNG Built-in Feature: `testng-failed.xml`
+
+* **How it Works:** TestNG automatically generates `testng-failed.xml` in the `test-output` directory after a test suite run. This file contains the definitions of the test methods that failed in the previous execution.
+
+* **How to Use:**
+    1. **Run your initial TestNG suite.** Allow some tests to fail.
+    2. **Locate `testng-failed.xml`** in the `test-output` directory.
+    3. **Run `testng-failed.xml`** as a regular TestNG suite (e.g., via IDE or command line).
+
+* **Example `testng-failed.xml`:**
+   ```xml
+   <!DOCTYPE suite SYSTEM "[https://testng.org/testng-1.0.dtd](https://testng.org/testng-1.0.dtd)">
+   <suite name="Failed suite [YourTestSuiteName]">
+     <test thread-count="5" name="YourTestName(failed)">
+       <classes>
+         <class name="com.example.YourTestClass">
+           <methods>
+             <include name="testMethodThatFailed"/>
+             <include name="anotherFailedTestMethod"/>
+           </methods>
+         </class>
+       </classes>
+     </test> </suite>
+
+ * Advantages:
+   * Built-in and easy to use.
+   * Automatically generated.
+ * Disadvantages:
+   * Only captures failures from the last run.
+   * No historical tracking of failures.
+2. Other Common Approaches
+a) Using TestNG Listeners and Reporters (for Rerun Logic)
+ * How it Works: Create a custom ITestListener to track failed tests and programmatically generate a new testng.xml containing only the failed tests for rerun.
+ * How to Use (Conceptual):
+   * Implement a custom listener with onTestFailure to store failed test details.
+   * In onFinish, generate a new testng-rerun.xml with the failed test classes and methods.
+   * Run the generated testng-rerun.xml.
+ * Example Listener (Conceptual - XML generation needs implementation):
+   import org.testng.ITestContext;
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+import java.util.ArrayList;
+import java.util.List;
+
+public class FailedTestListener implements ITestListener {
+    private List<ITestResult> failedTests = new ArrayList<>();
+
+    @Override
+    public void onTestFailure(ITestResult result) {
+        failedTests.add(result);
+    }
+
+    @Override
+    public void onFinish(ITestContext context) {
+        if (!failedTests.isEmpty()) {
+            System.out.println("Generating testng-rerun.xml with failed tests...");
+            // Implement logic to create testng-rerun.xml
+            for (ITestResult failedTest : failedTests) {
+                String className = failedTest.getTestClass().getName();
+                String methodName = failedTest.getMethod().getMethodName();
+                System.out.println("Failed: " + className + "." + methodName);
+                // Add to XML structure
+            }
+            System.out.println("testng-rerun.xml generated.");
+        }
+    }
+}
+
+   Register the listener in testng.xml:
+   <listeners>
+    <listener class-name="com.example.FailedTestListener"/>
+</listeners>
+
+b) Using External Reporting Tools (e.g., Allure, Extent Reports)
+ * How it Works: These tools often track failed tests and provide features to identify and potentially rerun them.
+ * How to Use:
+   * Integrate the reporting tool.
+   * Run tests and generate reports.
+   * Use the tool's interface to identify failed tests.
+   * The tool might offer options to export failed tests for rerun.
+c) Manual Tracking (Not Recommended for Automation)
+ * Manually note failed test names and create a temporary testng.xml. Inefficient and error-prone.
+Utilizing Retry Listeners in TestNG
+A retry listener in TestNG allows you to automatically rerun failed test cases a specified number of times. This is useful for handling intermittent failures.
+1. Implement the IRetryAnalyzer Interface:
+Create a class that implements the org.testng.IRetryAnalyzer interface. This interface has one method: retry(ITestResult result). This method should return true if the test needs to be retried and false otherwise. You'll need to maintain a counter for the number of retries.
+import org.testng.IRetryAnalyzer;
+import org.testng.ITestResult;
+
+public class RetryAnalyzer implements IRetryAnalyzer {
+
+    private int retryCount = 0;
+    private static final int maxRetryCount = 2; // Define the maximum number of retries
+
+    @Override
+    public boolean retry(ITestResult result) {
+        if (retryCount < maxRetryCount) {
+            System.out.println("Retrying test '" + result.getName() + "' on class '" +
+                    result.getTestClass().getName() + "', attempt " + (retryCount + 1) + " of " + maxRetryCount);
+            retryCount++;
+            return true; // Retry the test
+        }
+        return false; // Do not retry the test
+    }
+}
+
+2. Implement an IAnnotationTransformer to Apply the IRetryAnalyzer:
+Create a listener that implements org.testng.IAnnotationTransformer. In the transform method, which is called for each test method, you'll set the RetryAnalyzer for the test.
+import org.testng.IAnnotationTransformer;
+import org.testng.IRetryAnalyzer;
+import org.testng.ITestResult;
+import org.testng.annotations.ITestAnnotation;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
+
+public class RetryListener implements IAnnotationTransformer {
+
+    @Override
+    public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
+        annotation.setRetryAnalyzer(RetryAnalyzer.class);
+    }
+}
+
+3. Register the RetryListener in testng.xml:
+Add the listener to your TestNG suite configuration file.
+<!DOCTYPE suite SYSTEM "[https://testng.org/testng-1.0.dtd](https://testng.org/testng-1.0.dtd)">
+<suite name="MyTestSuite">
+    <listeners>
+        <listener class-name="com.example.RetryListener"/>
+    </listeners>
+    <test name="MyTests">
+        <classes>
+            <class name="com.example.YourTestClass"/>
+            </classes>
+    </test>
+</suite>
+
+How Retry Listener Works:
+ * When a test method annotated with @Test fails, TestNG notifies the registered listeners.
+ * The RetryListener's transform method ensures that the RetryAnalyzer is associated with the @Test annotation.
+ * TestNG calls the retry() method of your RetryAnalyzer.
+ * If retry() returns true (and the retry count is within the limit), TestNG will rerun the failed test method.
+ * This process continues until the test passes, or the maximum number of retries is reached.
+ * If the test still fails after all retries, it will be marked as a failure in the final report.
+Considerations for Retry Listeners:
+ * Identify Flaky Tests: Use retry listeners primarily for tests known to be occasionally flaky, not for consistently failing tests (which indicate actual bugs).
+ * Limit Retry Attempts: Avoid infinite retries by setting a reasonable maxRetryCount.
+ * Logging: Implement proper logging in your RetryAnalyzer to track retries.
+ * Test Design: While retry listeners can help, focus on designing robust and stable tests in the first place.
+By understanding how to rerun failed tests and implement retry listeners, you can significantly improve the efficiency and reliability of your TestNG automation framework.
+
