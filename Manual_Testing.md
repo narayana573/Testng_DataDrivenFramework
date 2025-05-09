@@ -127,3 +127,70 @@
 | Test Case Reuse      | Same test case re-executed         | Existing test suite executed                  |
 | Automation           | Rarely automated                   | Commonly automated                            |
 | Dependency           | Depends on defect fix              | Depends on any code change                    |
+
+
+
+
+
+
+## SDLC vs STLC (Interview Notes)
+
+### SDLC – Software Development Life Cycle
+
+- **Definition**: A process followed for software development, defining phases from requirement gathering to maintenance.
+- **Objective**: To ensure software is developed systematically with proper planning and control.
+- **Phases**:
+  - Requirement Gathering
+  - Feasibility Study
+  - Design (HLD & LLD)
+  - Development
+  - Testing
+  - Deployment
+  - Maintenance
+- **Participants**: Business Analysts, Architects, Developers, Testers, Project Managers, Clients
+- **Deliverables**:
+  - SRS (Software Requirement Specification)
+  - Design Documents
+  - Source Code
+  - Test Plans
+  - Deployment Plans
+
+---
+
+### STLC – Software Testing Life Cycle
+
+- **Definition**: A sequence of activities performed during the testing process to ensure software quality.
+- **Objective**: To validate and verify that the software meets the business and technical requirements.
+- **Phases**:
+  - Requirement Analysis
+  - Test Planning
+  - Test Case Design
+  - Test Environment Setup
+  - Test Execution
+  - Defect Reporting & Tracking
+  - Test Closure
+- **Participants**: QA/Test Managers, Test Leads, Test Engineers
+- **Deliverables**:
+  - Test Plan
+  - Test Cases/Scripts
+  - Test Data
+  - Defect Reports
+  - Test Summary Report
+
+---
+
+### Key Differences
+
+| Aspect                | SDLC                                  | STLC                                     |
+|-----------------------|----------------------------------------|-------------------------------------------|
+| Full Form             | Software Development Life Cycle        | Software Testing Life Cycle               |
+| Focus Area            | Entire software development process    | Only testing-related activities           |
+| Involves              | BA, Dev, QA, PM                        | Only QA/Testing team                      |
+| Starts From           | Requirement gathering                  | Once requirements are ready               |
+| Output                | Working Software                       | Verified/Tested Software                  |
+| Deliverables          | Code, Design Docs, User Manuals        | Test Plan, Test Cases, Defect Reports     |
+
+---
+
+### Tip for Interview
+- **Remember**: STLC is a part of SDLC, focusing only on quality assurance and validation phases.
