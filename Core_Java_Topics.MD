@@ -174,11 +174,107 @@ This document outlines key Core Java concepts frequently discussed in Selenium i
 * **Selenium Relevance:** Can be used in custom utility classes or when working with collections to ensure type safety.
 * **Interview Notes:** Understand the basic concept of generics and their benefits.
 
-**Remember to:**
+Here is the explanation in .md (Markdown) format, ready for copy-pasting:
 
-* Provide code examples when explaining concepts.
-* Relate each concept to its practical application in Selenium.
-* Be prepared to discuss the advantages and disadvantages of different approaches.
-* Practice explaining these concepts clearly and concisely.
+# String vs StringBuilder vs StringBuffer in Java (Layman Explanation)
 
-Good luck with your interview!
+## 1. String
+
+- **What is it?**  
+  A `String` is a **sequence of characters**, like words or sentences.
+
+- **Example:**
+  ```java
+  String name = "Surya";
+
+Immutable:
+
+Once a string is created, it cannot be changed.
+
+Any modification creates a new object in memory.
+
+
+Example:
+
+String str = "Hello";
+str = str + " World"; // Creates a new string object "Hello World"
+
+Use case:
+Use String when the text does not change frequently.
+
+
+
+---
+
+2. StringBuilder
+
+What is it?
+A StringBuilder is used to modify strings without creating new objects.
+
+Example:
+
+StringBuilder sb = new StringBuilder("Hello");
+sb.append(" World");
+
+Mutable:
+
+You can change its contents.
+
+It is faster than String for many modifications.
+
+
+Use case:
+Use StringBuilder when strings need to be changed frequently in a single-threaded program.
+
+
+
+---
+
+3. StringBuffer
+
+What is it?
+Similar to StringBuilder, but it is thread-safe.
+
+Thread-safe:
+
+Safe to use in multi-threaded environments.
+
+Uses synchronization internally (slightly slower due to this).
+
+
+Example:
+
+StringBuffer sbf = new StringBuffer("Hello");
+sbf.append(" World");
+
+Use case:
+Use StringBuffer when multiple threads access and modify the same string object.
+
+
+
+---
+
+Comparison Table
+
+Feature	String	StringBuilder	StringBuffer
+
+Mutable	No	Yes	Yes
+Thread-safe	No	No	Yes
+Performance	Slow (if modified often)	Fast	Slower than StringBuilder
+Use case	Read-only or few changes	Many changes in single thread	Many changes in multi-threaded programs
+
+
+
+---
+
+Interview Tip
+
+String: Use when the value doesn’t change.
+
+StringBuilder: Use when you need to modify strings often and thread-safety is not a concern.
+
+StringBuffer: Use when you need thread safety while modifying strings.
+
+
+Would you like the same content as a downloadable `.md` file?
+
