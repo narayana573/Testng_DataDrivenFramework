@@ -324,111 +324,99 @@ For example:
 ```java
 String str = "Hello";
 str = str + " World"; // A new "Hello World" object is created, and 'str' now refers to it. The original "Hello" remains.
+| Java Version | String Class Methods Introduced |
+|---|---|
+| Java 1.1 | `charAt()`, `compareTo()`, `concat()`, `endsWith()`, `equals()`, `getBytes()`, `hashCode()`, `indexOf()`, `intern()`, `lastIndexOf()`, `length()`, `regionMatches()`, `startsWith()`, `substring()`, `toCharArray()`, `toLowerCase()`, `toString()`, `toUpperCase()`, `trim()`, `valueOf()` |
+| Java 1.4 | `codePointAt()`, `codePoints()`, `contentEquals()`, `equalsIgnoreCase()`, `format()`, `indexOf(String str, int fromIndex)`, `lastIndexOf(String str, int fromIndex)`, `matches(String regex)`, `replace(char oldChar, char newChar)`, `split(String regex)`, `subSequence(int beginIndex, int endIndex)` |
+| Java 1.5 | `codePointBefore(int index)`, `contains(CharSequence s)`, `endsWith(String suffix)`, `equals(Object anObject)`, `getBytes(Charset charset)`, `indexOf(String str)`, `lastIndexOf(String str)`, `replace(CharSequence target, CharSequence replacement)`, `split(String regex, int limit)`, `startsWith(String prefix)`, `substring(int beginIndex)`, `toCharArray()`, `toLowerCase(Locale locale)`, `toUpperCase(Locale locale)`, `trim()` |
+| Java 1.6 | `codePointCount(int beginIndex, int endIndex)`, `format(String format, Object... args)`, `intern()`, `isEmpty()`, `lastIndexOf(String str, int fromIndex)`, `length()`, `matches(String regex)`, `offsetByCodePoints(int index, int codePointOffset)`, `regionMatches(boolean ignoreCase, int toffset, String other, int ooffset, int len)`, `replace(CharSequence target, CharSequence replacement)`, `split(String regex)`, `startsWith(String prefix, int toffset)`, `subSequence(int beginIndex, int endIndex)`, `substring(int beginIndex, int endIndex)`, `toCharArray()`, `toLowerCase(Locale locale)`, `toUpperCase(Locale locale)`, `trim()`, `valueOf(Object obj)` |
+| Java 1.7 | `join(CharSequence delimiter, CharSequence... elements)` |
+| Java 11 | `strip()`, `stripLeading()`, `stripTrailing()`, `isBlank()`, `lines()`, `repeat(int count)`, `replaceFirst(String regex, String replacement)`, `replaceAll(String regex, String replacement)`, `transform(Function<? super String, ? extends R> f)`, `translateEscapes()`, `indent(int n)` |
 
-| Java 1.1 | Java 1.4 | Java 1.5 | Java 1.6 | Java 1.7 | Java 11 |
-|---|---|---|---|---|---|
-| charAt() | codePointAt() | codePointBefore() | codePointCount() | join() | strip() |
-| compareTo() | codePoints() | contains() | format() |  | stripLeading() |
-| concat() | contentEquals() | endsWith() | intern() |  | stripTrailing() |
-| endsWith() | equalsIgnoreCase() | equals() | isEmpty() |  | isBlank() |
-| equals() | format() | getBytes() | lastIndexOf() |  | lines() |
-| getBytes() | indexOf() | indexOf() | length() |  | repeat() |
-| hashCode() | lastIndexOf() | lastIndexOf() | matches() |  | replaceFirst() |
-| indexOf() | length() | replace() | offsetByCodePoints() |  | replaceAll() |
-| intern() | matches() | split() | regionMatches() |  | transform() |
-| lastIndexOf() | regionMatches() | startsWith() | replace() |  | translateEscapes() |
-| length() | replace() | subSequence() | split() |  | indent() |
-| regionMatches() | split() | substring() | startsWith() |  |  |
-| startsWith() | startsWith() | toCharArray() | subSequence() |  |  |
-| substring() | subSequence() | toLowerCase() | substring() |  |  |
-| toCharArray() | substring() | toUpperCase() | toCharArray() |  |  |
-| toLowerCase() | toLowerCase() | trim() | toLowerCase() |  |  |
-| toString() | toUpperCase() | valueOf() | toUpperCase() |  |  |
-| toUpperCase() | trim() |  | trim() |  |  |
-| trim() | valueOf() |  | valueOf() |  |  |
-| valueOf() |  |  |  |  |  |
-java.lang.StringBuffer Class
-The java.lang.StringBuffer class is used to create mutable (modifiable) string objects.
-Important Methods:
- * append(): Adds the specified string to the end of the current string.
- * insert(): Inserts the specified string at the specified position.
- * delete(): Deletes the characters within the specified range.
- * deleteCharAt(): Deletes the character at the specified position.
- * replace(): Replaces the characters within the specified range with the specified string.
- * reverse(): Reverses the sequence of characters in the string buffer.
- * length(): Returns the length (number of characters) of the string buffer.
- * capacity(): Returns the current capacity of the string buffer.
- * ensureCapacity(): Ensures that the capacity of the buffer is at least equal to the specified minimum.
- * charAt(): Returns the character at the specified index.
- * setCharAt(): Sets the character at the specified index to the given character.
- * substring(): Returns a new string that is a substring of this string buffer.
-It is not possible to create StringBuffer objects using string literals; you must use the new operator to create StringBuffer objects.
-Objects are stored in heap memory.
-Thread-safe.
-Can be created either through string literal or through new operator.
-Objects are stored in heap memory.
-Slower.
-java.lang.StringBuilder Class
-The java.lang.StringBuilder class is also used to create mutable string objects. It is similar to StringBuffer but is not thread-safe, which makes it faster in single-threaded environments.
-Important Methods:
-It has the same important methods as StringBuffer: append(), insert(), delete(), deleteCharAt(), replace(), reverse(), length(), capacity(), ensureCapacity(), charAt(), setCharAt(), substring().
-It is not possible to create StringBuilder objects using string literals; you must use the new operator to create StringBuilder objects.
-Objects are stored in heap memory.
-Not thread-safe.
-Can be created only through new operator.
-Objects are stored in heap memory only.
-Faster.
-String vs StringBuffer vs StringBuilder
-| Feature | String | StringBuffer | StringBuilder |
-|---|---|---|---|
-| Mutability | Immutable | Mutable | Mutable |
-| Thread-safe | Yes (implicitly, as operations create new strings) | Yes (synchronized methods) | No (not synchronized) |
-| Performance | Generally slower for modifications | Slower due to synchronization | Faster (no synchronization overhead) |
-| Creation | Literal or new operator | Only new operator | Only new operator |
-| Memory Storage | String Constant Pool (for literals) and Heap | Heap | Heap |
-String Intern
-String interning is the process of creating or ensuring that a single copy of a string literal exists in the String Constant Pool (SCP). When the intern() method is called on a String object, the JVM checks if a string with the same content exists in the SCP.
- * If it exists, the reference to that string in the SCP is returned.
- * If it doesn't exist, the string object is added to the SCP, and the reference to this new string in the SCP is returned.
-String interning can be useful for memory optimization if you have many String objects with the same content. However, it should be used judiciously as the interning process itself takes time.
-Note for Interview Preparation:
- * Immutability of String: This is a very common interview question. Be prepared to explain why strings are immutable in Java (security, caching, thread safety) and the implications of immutability (creation of new objects on modification). Provide examples.
- * String Constant Pool (SCP): Understand how string literals are stored in the SCP and the benefits of this (memory efficiency). Explain the difference between creating strings using literals and the new operator with respect to the SCP.
- * equals() vs. ==: Be able to clearly differentiate between these two. == compares object references, while equals() (for String) compares the content of the strings.
- * StringBuffer vs. StringBuilder: Know the key differences, especially regarding thread safety and performance. Understand when to use each class.
- * String Interning: Be able to explain what string interning is and the purpose of the intern() method. Discuss its potential benefits and drawbacks.
- * Common String Methods: Familiarize yourself with the commonly used methods of the String class (e.g., substring(), indexOf(), concat(), replace(), split(), trim(), length(), charAt(), equals(), equalsIgnoreCase()). Be prepared to explain what they do and provide simple usage examples.
-Examples:
-Immutability:
+## java.lang.StringBuffer Class
+
+The `java.lang.StringBuffer` class is used to create mutable (modifiable) string objects.
+
+**Important Methods:**
+
+* `append(String str)`: Adds the specified string to the end of the current string.
+* `insert(int offset, String str)`: Inserts the specified string at the specified position.
+* `delete(int start, int end)`: Deletes the characters within the specified range (end index is exclusive).
+* `deleteCharAt(int index)`: Deletes the character at the specified position.
+* `replace(int start, int end, String str)`: Replaces the characters within the specified range with the specified string.
+* `reverse()`: Reverses the sequence of characters in the string buffer.
+* `length()`: Returns the length (number of characters) of the string buffer.
+* `capacity()`: Returns the current capacity of the string buffer (the amount of storage available for new characters).
+* `ensureCapacity(int minimumCapacity)`: Ensures that the capacity of the buffer is at least equal to the specified minimum.
+* `charAt(int index)`: Returns the character at the specified index.
+* `setCharAt(int index, char ch)`: Sets the character at the specified index to the given character.
+* `substring(int start)`: Returns a new string that is a substring of this string buffer, starting from the specified index to the end.
+* `substring(int start, int end)`: Returns a new string that is a substring of this string buffer, starting from the specified `start` index (inclusive) to the specified `end` index (exclusive).
+
+**Key Characteristics:**
+
+* It is **not possible** to create `StringBuffer` objects using string literals; you **must** use the `new` operator to create `StringBuffer` objects.
+    ```java
+    StringBuffer sb1 = new StringBuffer();
+    StringBuffer sb2 = new StringBuffer("initial value");
+    ```
+* Objects are stored in **heap memory**.
+* **Thread-safe**: Methods in `StringBuffer` are synchronized, making it safe for use in multi-threaded environments.
+* Generally **slower** compared to `StringBuilder` due to the overhead of synchronization.
+
+## java.lang.StringBuilder Class
+
+The `java.lang.StringBuilder` class is also used to create mutable string objects. It is similar to `StringBuffer` but is **not thread-safe**, which makes it faster in single-threaded environments.
+
+**Important Methods:**
+
+It has the **same important methods as StringBuffer**: `append()`, `insert()`, `delete()`, `deleteCharAt()`, `replace()`, `reverse()`, `length()`, `capacity()`, `ensureCapacity()`, `charAt()`, `setCharAt()`, `substring()`.
+
+**Key Characteristics:**
+
+* It is **not possible** to create `StringBuilder` objects using string literals; you **must** use the `new` operator to create `StringBuilder` objects.
+    ```java
+    StringBuilder sbl1 = new StringBuilder();
+    StringBuilder sbl2 = new StringBuilder("another value");
+    ```
+* Objects are stored in **heap memory**.
+* **Not thread-safe**: Methods in `StringBuilder` are not synchronized.
+* **Faster** compared to `StringBuffer` because there is no synchronization overhead.
+
+## String vs StringBuffer vs StringBuilder
+
+| Feature        | String                                                     | StringBuffer                                  | StringBuilder                                     |
+|----------------|------------------------------------------------------------|-----------------------------------------------|---------------------------------------------------|
+| **Mutability** | Immutable (operations create new strings)                  | Mutable (modifications happen in the same object) | Mutable (modifications happen in the same object)   |
+| **Thread-safe** | Yes (implicitly, as operations create new strings)         | Yes (synchronized methods)                    | No (not synchronized)                             |
+| **Performance**| Generally slower for modifications                         | Slower due to synchronization                 | Faster (no synchronization overhead)              |
+| **Creation** | Literal (e.g., `"hello"`) or `new String("hello")`         | Only `new StringBuffer()`                      | Only `new StringBuilder()`                        |
+| **Memory Storage** | String Constant Pool (for literals) and Heap (for `new`) | Heap                                          | Heap                                              |
+
+## String Intern
+
+String interning is the process of creating or ensuring that a single copy of a string literal exists in the **String Constant Pool (SCP)**. When the `intern()` method is called on a `String` object, the JVM checks if a string with the same content exists in the SCP.
+
+* **If it exists**, the reference to that string in the SCP is returned.
+* **If it doesn't exist**, the string object is added to the SCP, and the reference to this new string in the SCP is returned.
+
+String interning can be useful for **memory optimization** if you have many `String` objects with the same content. However, it should be used **judiciously** as the interning process itself takes time.
+
+## Note for Interview Preparation:
+
+* **Immutability of String:** This is a very common interview question. Be prepared to explain **why** strings are immutable in Java (security, caching, thread safety) and the **implications** of immutability (creation of new objects on modification). Provide clear examples.
+* **String Constant Pool (SCP):** Understand **how** string literals are stored in the SCP and the **benefits** of this (memory efficiency). Explain the difference between creating strings using literals and the `new` operator with respect to the SCP.
+* **`equals()` vs. `==`:** Be able to clearly **differentiate** between these two. `==` compares object references (memory addresses), while `equals()` (for `String`) compares the **content** of the strings.
+* **StringBuffer vs. StringBuilder:** Know the **key differences**, especially regarding thread safety and performance. Understand **when to use each class**. Use `StringBuffer` in multi-threaded environments where thread safety is crucial, and `StringBuilder` in single-threaded environments for better performance.
+* **String Interning:** Be able to explain **what** string interning is and the **purpose** of the `intern()` method. Discuss its potential **benefits** (memory saving) and **drawbacks** (performance overhead of interning).
+* **Common String Methods:** Familiarize yourself with the commonly used methods of the `String` class (e.g., `substring()`, `indexOf()`, `concat()`, `replace()`, `split()`, `trim()`, `length()`, `charAt()`, `equals()`, `equalsIgnoreCase()`). Be prepared to explain what they do and provide simple usage examples.
+
+## Examples:
+
+**Immutability:**
+
+```java
 String s1 = "Java";
 String s2 = s1.concat(" Programming");
 System.out.println(s1); // Output: Java (s1 remains unchanged)
 System.out.println(s2); // Output: Java Programming (s2 is a new string)
-
-String Constant Pool:
-String str1 = "hello";
-String str2 = "hello";
-String str3 = new String("hello");
-String str4 = new String("hello");
-
-System.out.println(str1 == str2); // Output: true (both refer to the same object in SCP)
-System.out.println(str1 == str3); // Output: false (str1 is in SCP, str3 is in heap)
-System.out.println(str3 == str4); // Output: false (both are different objects in heap)
-System.out.println(str1.equals(str3)); // Output: true (content is the same)
-
-StringBuffer and StringBuilder:
-StringBuffer sb = new StringBuffer("Hello");
-sb.append(" World");
-System.out.println(sb); // Output: Hello World (original object is modified)
-
-StringBuilder sbl = new StringBuilder("Java");
-sbl.append(" SE");
-System.out.println(sbl); // Output: Java SE (original object is modified)
-
-String Interning:
-String s5 = new String("example");
-String s6 = "example";
-System.out.println(s5 == s6); // Output: false
-
-String s7 = s5.intern();
-System.out.println(s6 == s7); // Output: true (s7 now refers to the string in SCP)
