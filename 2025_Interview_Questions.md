@@ -243,9 +243,6 @@ The word 'test' appears 2 time(s).
 
 ## Lloyds Bank
 
-
-
-```markdown
 # Interview Questions and Answers for Selenium (String, Collections, Multithreading, POM, Postman, Git)
 
 ## StringBuilder vs. StringBuffer
@@ -447,54 +444,5 @@ public class HomePage {
         return welcomeElement.getText();
     }
 }
-```
-
-## Postman - Headers, Query Param, Path Parameter
-
-Postman is a popular API client used for testing and interacting with APIs.
-
-* **Headers:** Headers are key-value pairs that provide additional information about the HTTP request or response. They are essential for communication between the client and the server. Common headers include `Content-Type` (specifies the format of the request/response body), `Authorization` (for authentication), `User-Agent` (identifies the client application), etc.
-
-    **Selenium Usage (API Testing):** If you are using Selenium for basic API testing (though dedicated tools like RestAssured are more suitable), you might inspect the headers of HTTP requests made by the web application under test using browser developer tools. Understanding these headers can be important for verifying the application's behavior.
-
-* **Query Parameters:** Query parameters are used to send data to the server in the URL itself. They are appended to the base URL after a question mark (`?`) and are in the format `key=value`. Multiple query parameters are separated by ampersands (`&`).
-
-    **Selenium Usage:** When testing web applications, you often interact with URLs that contain query parameters (e.g., for filtering results, pagination, passing identifiers). Selenium allows you to navigate to URLs with specific query parameters using `driver.get("url?param1=value1&param2=value2")` and to verify the presence or values of these parameters in the URL.
-
-* **Path Parameters:** Path parameters are part of the URL path itself and are used to identify specific resources. They are often used in RESTful APIs to point to a particular entity. For example, in `/users/{userId}`, `{userId}` is a path parameter that would be replaced with the actual ID of a user.
-
-    **Selenium Usage:** When testing web applications that use RESTful URLs, you might need to navigate to URLs with specific path parameters. While Selenium doesn't directly manipulate path parameters in the backend, you would construct the full URL with the desired parameter values and use `driver.get()` to access that resource in the browser. You might then verify the content displayed based on the path parameter.
-
-## Git Commands Used
-
-Git is a distributed version control system that tracks changes to files over time. Here are some commonly used Git commands from an interview perspective:
-
-* `git init`: Initializes a new Git repository in the current directory.
-* `git clone <repository_url>`: Creates a copy of a remote repository on your local machine.
-* `git add <file(s)>`: Stages changes in the specified files for the next commit. Use `git add .` to stage all changes in the current directory and its subdirectories.
-* `git commit -m "<commit_message>"`: Saves the staged changes with a descriptive message.
-* `git status`: Shows the current state of the working directory and staging area.
-* `git log`: Displays the commit history of the repository. Use `git log --oneline` for a more concise view.
-* `git branch`: Lists all local branches. Use `git branch <new_branch_name>` to create a new branch.
-* `git checkout <branch_name>`: Switches to an existing branch. Use `git checkout -b <new_branch_name>` to create and switch to a new branch.
-* `git merge <branch_to_merge>`: Integrates changes from the specified branch into the current branch.
-* `git pull <remote_name> <branch_name>`: Fetches changes from a remote repository and merges them into the current branch.
-* `git push <remote_name> <branch_name>`: Sends local commits to a remote repository.
-* `git remote -v`: Lists the configured remote repositories.
-* `git stash`: Temporarily saves uncommitted changes. Use `git stash list` to see saved stashes, `git stash apply` to reapply the most recent stash, and `git stash pop` to apply and remove the most recent stash.
-* `git diff`: Shows the differences between the working directory, staging area, and the last commit. Use `git diff --staged` to see changes in the staging area.
-
-**Selenium Usage:**
-
-In a Selenium automation project, Git is crucial for:
-
-* **Version Control:** Tracking changes to your test scripts, Page Objects, configuration files, and other project artifacts.
-* **Collaboration:** Allowing multiple team members to work on the same project simultaneously without conflicts.
-* **Code Management:** Branching and merging features help manage different versions of the test code (e.g., for different environments or features under development).
-* **Rollback and History:** Providing a history of changes, allowing you to revert to previous versions if necessary.
-* **Integration with CI/CD:** Git repositories are often integrated with Continuous Integration/Continuous Deployment (CI/CD) pipelines to automate the build, test, and deployment process.
-```
-
-
 End of Q\&A
 
