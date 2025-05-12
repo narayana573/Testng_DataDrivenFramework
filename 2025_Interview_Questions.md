@@ -444,5 +444,97 @@ public class HomePage {
         return welcomeElement.getText();
     }
 }
+
+
+Here's a simple .md (Markdown) file that lists commonly used Git commands for a Selenium project. This file is useful as a quick reference for version control while working on automation projects.
+
+
+---
+
+Filename: git-commands-for-selenium.md
+
+# Git Commands for Selenium Projects
+
+## 1. Git Setup
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+2. Create or Clone Repository
+
+# Create new repo
+git init
+
+# Clone existing repo
+git clone https://github.com/yourusername/your-selenium-project.git
+
+3. Basic Workflow
+
+# Check current status
+git status
+
+# Add all changes
+git add .
+
+# Add specific file
+git add path/to/your/file.java
+
+# Commit changes with message
+git commit -m "Add new Selenium test cases"
+
+# Push changes to remote
+git push origin main
+
+4. Branching
+
+# Create new branch
+git branch feature/test-login
+
+# Switch to the branch
+git checkout feature/test-login
+
+# Create and switch to new branch
+git checkout -b feature/test-login
+
+# Push new branch to remote
+git push origin feature/test-login
+
+5. Merge
+
+# Switch to main branch
+git checkout main
+
+# Merge feature branch into main
+git merge feature/test-login
+
+6. Pull Latest Changes
+
+git pull origin main
+
+7. View History
+
+git log
+
+8. Discard Changes
+
+# Discard unstaged changes
+git checkout -- filename.java
+
+# Reset staged files
+git reset
+
+9. Remove File from Git
+
+# Delete file from repo
+git rm filename.java
+git commit -m "Remove old test file"
+
+
+---
+
+Tip: Always pull the latest code before starting new work to avoid merge conflicts.
+
+---
+
 End of Q\&A
 
