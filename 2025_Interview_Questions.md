@@ -536,5 +536,84 @@ Tip: Always pull the latest code before starting new work to avoid merge conflic
 
 ---
 
+```markdown
+# innovasolutions
+
+## 1. XPath for input tag from label
+```
+ <label for="email">E-mail</label>
+ <input type="text" name="email" id="email">
+```
+**Answer:**
+
+Here's the recommended XPath:
+
+```xpath
+//label[text()='E-mail']/following-sibling::input
+```
+
+## 2. Java program for the string "a2b3cd4ef5"
+
+**Concept:** String manipulation, character iteration, conditional logic, and building a new string efficiently.
+
+**Answer:**
+
+The requirement is to expand the characters in the string based on the digit that follows them. If a character is followed by a digit, it's repeated that many times; otherwise, it appears once.
+
+Here's a Java program to implement this logic:
+
+```java
+public class StringExpander {
+
+    public static void main(String[] args) {
+        String str = "a2b3cd4ef5";
+        String expandedString = expandString(str);
+        System.out.println("Original String: " + str);
+        System.out.println("Expanded String: " + expandedString);
+        // Expected Output: aabbbcdcdcdefefefefef
+    }
+
+    /**
+     * Expands a string based on digits following characters.
+     * A character followed by a digit 'n' is repeated n times.
+     * A character not followed by a digit appears once.
+     *
+     * @param str The input string.
+     * @return The expanded string.
+     */
+   public class StringPatternExpander {
+    public static void main(String[] args) {
+        String str = "a2b3cd4ef5";
+        StringBuilder result = new StringBuilder();  // Final result
+        int i = 0;
+
+        while (i < str.length()) {
+            StringBuilder letters = new StringBuilder();
+
+            // Collect letters (until a digit or end of string)
+            while (i < str.length() && !Character.isDigit(str.charAt(i))) {
+                letters.append(str.charAt(i));
+                i++;
+            }
+
+            // If a digit follows, repeat the collected letters
+            if (i < str.length() && Character.isDigit(str.charAt(i))) {
+                int count = str.charAt(i) - '0';  // Convert char digit to int
+                for (int j = 0; j < count; j++) {
+                    result.append(letters);
+                }
+                i++; // Move past the digit
+            } else {
+                // No digit: just add the collected letters once
+                result.append(letters);
+            }
+        }
+
+        // Output the expanded string
+        System.out.println(result.toString());  // Output: aabbbcdcdcdefefefefef
+    }
+}
+
+```
 End of Q\&A
 
