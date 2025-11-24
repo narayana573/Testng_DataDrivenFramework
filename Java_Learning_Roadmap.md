@@ -1,249 +1,311 @@
-# 📅 Java & OOPs Intensive Learning Schedule (Nov - Dec 2025)
+# 🚀 Ultimate SDET & Automation Interview Roadmap (2025)
 
-**Goal:** Master Core Java and Object-Oriented Programming for Automation Testing.  
+**Goal:** Zero to Hero in Core Java, Selenium WebDriver, Framework Design, and API Testing.  
 **Start Date:** November 25, 2025  
-**Approach:** Theory implementation followed by medium-level logical coding exercises.
+**Duration:** 5 Weeks  
+**Focus:** Theory implementation followed by logical coding exercises relevant to real-world interviews.
 
 ---
 
-## 🗓️ Week 1: The Building Blocks
+## 🗓️ Phase 1: Core Java Logic & OOPs Foundation
+*Building the "Brain" of your automation framework.*
 
 ### 🟢 Day 1: Variables, Data Types & Operators
 **Date:** Nov 25, 2025 (Tuesday)
 
 #### 📘 Theory
-1.  **Data Types:**
-    * **Primitive:** `int`, `char`, `boolean`, `byte`, `long`, `double`, `float`, `short`.
-    * **Non-Primitive:** `String`, Arrays, Classes.
-2.  **Variables:** Local, Instance, and Static variables.
-3.  **Operators:** Arithmetic (`+`, `%`), Relational (`==`, `!=`), Logical (`&&`, `||`), Unary (`++`, `--`).
+1.  **Data Types:** * Primitive (`int`, `char`, `boolean`, `double`, etc.) vs Non-Primitive (`String`, Arrays).
+2.  **Variables:** Local vs Instance vs Static.
+3.  **Operators:** Arithmetic, Relational, Logical, and Unary.
 
-#### 💻 Coding Exercises (Medium)
-* **Exercise 1 (Type Casting):** Write a program to convert a `double` value (e.g., 100.235) to an `int` and a `char`. Print all three to see data loss.
-* **Exercise 2 (Logic Builder):** Create a program to swap two numbers **without** using a third temporary variable.
-* **Exercise 3 (Ternary Operator):** Write a program that takes three numbers as input and prints the largest number using only the Ternary operator (`? :`).
-
----
+#### 💻 Coding Exercises
+* **Ex 1 (Type Casting):** Write a program to convert a `double` (e.g., 100.235) to an `int` and `char`. Print to observe data loss.
+* **Ex 2 (Logic):** Swap two numbers **without** using a third variable.
+* **Ex 3 (Ternary):** Find the largest of three numbers using the ternary operator `? :`.
 
 ### 🟢 Day 2: Control Statements (Conditional)
 **Date:** Nov 26, 2025 (Wednesday)
 
 #### 📘 Theory
-1.  **If-Else & Nested If:** Decision making flow.
-2.  **Switch Case:** Handling multiple conditions efficiently.
-3.  **Jump Statements:** `break` (exit loop/switch) vs. `continue` (skip current iteration).
+1.  **Decision Making:** `if`, `else if`, `nested if`.
+2.  **Switch Case:** Structure and `break` keyword.
+3.  **Jump Statements:** `break` vs `continue`.
 
-#### 💻 Coding Exercises (Medium)
-* **Exercise 1 (Nested Logic):** Write a program for an ATM.
-    * Check if the card is valid.
-    * If valid, ask for a PIN.
-    * If the PIN is correct, allow specific options (Withdraw/Check Balance).
-* **Exercise 2 (Switch Case):** Create a "Calculator" that takes two numbers and an operator (`+`, `-`, `*`, `/`) as characters and performs the operation. Handle the "Divide by Zero" error using an `if` check inside the case.
+#### 💻 Coding Exercises
+* **Ex 1 (ATM Logic):** Write a nested `if` program. 
+    * Check if card is valid. If yes, ask PIN. If PIN correct, allow "Withdraw".
+* **Ex 2 (Calculator):** Use `switch` case to accept two numbers and an operator (`+`, `-`, `*`, `/`) to perform math. Handle "Divide by Zero".
 
----
-
-### 🟢 Day 3: Iteration Statements (Loops)
+### 🟢 Day 3: Loops (Iteration Logic)
 **Date:** Nov 27, 2025 (Thursday)
 
 #### 📘 Theory
-1.  **While Loop:** Pre-condition check.
-2.  **Do-While Loop:** Post-condition check (executes at least once).
-3.  **For Loop:** Standard iteration.
-4.  **Enhanced For Loop:** Iterating through collections/arrays easily.
+1.  **Loops:** `while` (pre-check), `do-while` (post-check), `for`.
+2.  **Enhanced For Loop:** Iterating over arrays/collections.
 
-#### 💻 Coding Exercises (Medium)
-* **Exercise 1 (Logic):** Write a program to check if a number is a **Palindrome** (e.g., 121 is a palindrome, 123 is not).
-* **Exercise 2 (Pattern Printing):** Print the following pyramid pattern using nested loops:
-    ```text
-        *
-       ***
-      *****
-     *******
-    ```
-* **Exercise 3 (Math Logic):** Write a program to find the **Factorial** of a number using a `while` loop.
+#### 💻 Coding Exercises
+* **Ex 1 (Palindrome):** Check if a number (e.g., 121) is a Palindrome.
+* **Ex 2 (Pyramid):** Print a half-pyramid of stars `*` using nested loops.
+* **Ex 3 (Factorial):** Calculate the factorial of a number using a `while` loop.
 
----
-
-### 🟢 Day 4: Arrays & Memory Management
+### 🟢 Day 4: Arrays & Strings
 **Date:** Nov 28, 2025 (Friday)
 
 #### 📘 Theory
-1.  **Declaration:** `int[] arr = new int[5];`
-2.  **Memory:** Heap memory allocation for arrays.
-3.  **Traversal:** Using standard `for` loop vs. `foreach` loop.
-4.  **Multidimensional Arrays:** Matrix representation.
+1.  **Arrays:** Declaration, Heap memory allocation, Single vs Multidimensional.
+2.  **Strings:** Immutability, String Constant Pool (SCP).
+3.  **Classes:** `String` vs `StringBuilder` vs `StringBuffer`.
 
-#### 💻 Coding Exercises (Medium)
-* **Exercise 1 (Array Manipulation):** Write a program to find the **Second Largest Number** in an integer array without sorting the array.
-* **Exercise 2 (Logic):** Write a program to move all `0`s to the end of an array while maintaining the relative order of non-zero elements.
-    * Input: `[0, 1, 0, 3, 12]` -> Output: `[1, 3, 12, 0, 0]`
+#### 💻 Coding Exercises
+* **Ex 1 (Array Logic):** Find the **Second Largest Number** in an array without sorting.
+* **Ex 2 (Zero Move):** Move all `0`s to the end of an array (e.g., `[0,1,0,3]` -> `[1,3,0,0]`).
+* **Ex 3 (String Reverse):** Reverse a string using `StringBuilder`.
 
 ---
 
-## 🗓️ Week 2: Object-Oriented Programming (OOP)
+## 🗓️ Phase 2: Object-Oriented Programming (OOP)
+*The architecture behind every Automation Framework.*
 
-### 🟠 Day 5: Class, Object, Method & Constructor
+### 🟠 Day 5: Classes, Objects & Constructors
 **Date:** Nov 29, 2025 (Saturday)
 
 #### 📘 Theory
-1.  **Class vs Object:** Blueprint vs Instance.
-2.  **Constructors:** Default vs Parameterized. usage of `this` keyword.
-3.  **Methods:** Return types, Parameters.
+1.  **Blueprint:** Class vs Object (Instance).
+2.  **Constructors:** Default vs Parameterized, `this` keyword.
+3.  **Methods:** Return types and parameters.
 
-#### 💻 Coding Exercises (Medium)
-* **Exercise 1 (Class Design):** Create a class `Student` with `id`, `name`, and `marks`.
-    * Create a constructor to initialize these.
-    * Create a method `calculateGrade()`: If marks > 90 return 'A', else 'B'.
-    * Create 3 objects and print their details.
-* **Exercise 2 (Constructors):** Create a class `Rectangle`. Implement two constructors:
-    * One taking no parameters (sets length/width to 0).
-    * One taking two parameters (length, width).
-    * Add a method to calculate Area.
+#### 💻 Coding Exercises
+* **Ex 1 (Class Design):** Create a `Student` class with `id`, `name`, `marks`. Use a constructor to initialize them.
+* **Ex 2 (Logic):** Add a method `calculateGrade()` inside `Student`. If marks > 90 return 'A', else 'B'.
 
----
-
-### 🟠 Day 6: Encapsulation & Access Modifiers
+### 🟠 Day 6: Encapsulation
 **Date:** Nov 30, 2025 (Sunday)
 
 #### 📘 Theory
-1.  **Access Modifiers:** `private`, `default`, `protected`, `public`. (Scope visibility).
-2.  **Encapsulation:** Wrapping data (variables) and code (methods) together.
-3.  **Getters & Setters:** Controlling access to private variables.
+1.  **Access Modifiers:** `private`, `default`, `protected`, `public`.
+2.  **Data Hiding:** Getters and Setters.
+3.  **Relevance:** How this applies to the **Page Object Model (POM)** in Selenium.
 
-#### 💻 Coding Exercises (Medium)
-* **Exercise 1 (Secure Data):** Create a `BankAccount` class.
-    * Make `accountBalance` private.
-    * Create a `deposit(amount)` method (increases balance).
-    * Create a `withdraw(amount)` method. (Logic: Check if balance > amount. If not, print "Insufficient Funds").
-    * You should **not** be able to change the balance directly from the main class.
-
----
+#### 💻 Coding Exercises
+* **Ex 1 (Secure Bank):** Create a `BankAccount` class. 
+    * Make `balance` private.
+    * Create public methods `deposit()` and `withdraw()` to modify balance safely.
 
 ### 🟠 Day 7: Inheritance
 **Date:** Dec 01, 2025 (Monday)
 
 #### 📘 Theory
-1.  **Basics:** `extends` keyword. Parent (Super) vs Child (Sub) class.
+1.  **IS-A Relationship:** `extends` keyword.
 2.  **Types:** Single, Multilevel, Hierarchical.
-3.  **Super Keyword:** Accessing parent class variables/constructors.
+3.  **Super:** Accessing parent variables/constructors.
 
-#### 💻 Coding Exercises (Medium)
-* **Exercise 1 (Hierarchical):** Create a class `Employee` (base) with `salary`.
-    * Create subclass `Developer` (adds `bonus`).
-    * Create subclass `QAEngineer` (adds `overtimePay`).
-    * Calculate `totalSalary` for both differently inside the specific classes using the parent's salary.
+#### 💻 Coding Exercises
+* **Ex 1 (Hierarchy):** Create `Employee` (base) with `salary`.
+    * Create `Developer` (child) that adds `bonus`.
+    * Create `QA` (child) that adds `automationTool`.
 
----
-
-### 🟠 Day 8: Polymorphism (Overloading & Overriding)
+### 🟠 Day 8: Polymorphism
 **Date:** Dec 02, 2025 (Tuesday)
 
 #### 📘 Theory
-1.  **Compile-time (Overloading):** Same method name, different parameters.
-2.  **Runtime (Overriding):** Same method name and parameters in Parent/Child.
-3.  **Rules:** Return types, Access modifiers in overriding.
+1.  **Overloading (Compile-time):** Same name, different parameters.
+2.  **Overriding (Run-time):** Same signature, different logic in Child class.
 
-#### 💻 Coding Exercises (Medium)
-* **Exercise 1 (Overloading):** Create a class `MathUtils`. Write an `add()` method that works for:
-    * Two integers.
-    * Three integers.
-    * Two doubles.
-* **Exercise 2 (Overriding):** Create a class `Bank` with a method `getInterestRate()` returning 5%.
-    * Create subclasses `SBI`, `HDFC`, `ICICI`.
-    * Override `getInterestRate()` in each to return 7%, 8%, and 9% respectively.
-    * Call them using Dynamic Method Dispatch (`Bank b = new SBI();`).
+#### 💻 Coding Exercises
+* **Ex 1 (Overloading):** Create a `Login` class. Overload `login()` to accept just `username` OR `username` + `password`.
+* **Ex 2 (Overriding):** Create `Bank` (interest 5%). Override in `HDFC` (7%) and `SBI` (6%).
 
----
-
-### 🟠 Day 9: Abstraction (Abstract Classes)
+### 🟠 Day 9: Abstraction
 **Date:** Dec 03, 2025 (Wednesday)
 
 #### 📘 Theory
-1.  **Concept:** Hiding implementation details, showing functionality.
-2.  **Abstract Class:** Can have abstract and non-abstract methods. Cannot be instantiated.
-3.  **Keywords:** `abstract`.
+1.  **Abstract Class:** `abstract` keyword, partial implementation.
+2.  **Usage:** Base classes in Frameworks.
 
-#### 💻 Coding Exercises (Medium)
-* **Exercise 1:** Create an abstract class `Animal` with:
-    * Abstract method `makeSound()`.
-    * Concrete method `sleep()` (prints "Zzz").
-* Create subclasses `Dog` and `Cat`. Implement `makeSound()` differently (Bark/Meow). Verify that `sleep()` works for both.
+#### 💻 Coding Exercises
+* **Ex 1:** Create abstract class `Shape` with abstract method `draw()`. Implement it in `Circle` and `Rectangle`.
 
----
-
-### 🟠 Day 10: Interface
+### 🟠 Day 10: Interfaces
 **Date:** Dec 04, 2025 (Thursday)
 
 #### 📘 Theory
-1.  **Concept:** 100% abstraction (before Java 8).
-2.  **Keywords:** `interface`, `implements`.
-3.  **Multiple Inheritance:** Achieved via Interfaces.
+1.  **Pure Abstraction:** `interface`, `implements` keyword.
+2.  **Selenium Link:** Why `WebDriver` is an interface.
 
-#### 💻 Coding Exercises (Medium)
-* **Exercise 1:** Create an interface `WebDriver` with methods `openBrowser()` and `closeBrowser()`.
-    * Create classes `Chrome` and `Firefox` that implement this interface.
-    * Define the body of the methods to print "Opening Chrome" or "Opening Firefox".
-* **Exercise 2 (Multiple Inheritance):** Create interfaces `Flyable` and `Swimmable`. Create a class `Duck` that implements both.
+#### 💻 Coding Exercises
+* **Ex 1:** Create interface `WebDriver` with methods `get()` and `close()`. Implement in `ChromeDriver` and `FirefoxDriver`.
 
 ---
 
-## 🗓️ Week 3: Advanced Concepts & Collections
+## 🗓️ Phase 3: Advanced Java & Collections
+*Handling data structures for testing.*
 
-### 🟣 Day 11: ArrayList & Wrapper Classes
+### 🟣 Day 11: Collections (List)
 **Date:** Dec 05, 2025 (Friday)
 
 #### 📘 Theory
-1.  **Wrapper Classes:** `int` vs `Integer`, Autoboxing/Unboxing.
-2.  **ArrayList:** Dynamic array, Resizable.
-3.  **Methods:** `add`, `get`, `remove`, `size`, `contains`.
+1.  **ArrayList:** Dynamic, resizable array.
+2.  **Wrapper Classes:** `int` -> `Integer` (Autoboxing).
 
-#### 💻 Coding Exercises (Medium)
-* **Exercise 1:** Create an `ArrayList` of Strings (Names of 5 cities).
-    * Iterate using a `foreach` loop.
-    * Write logic to remove any city name that starts with the letter 'B'.
-* **Exercise 2:** Create an `ArrayList` of Integers. Find the sum and average of all elements.
+#### 💻 Coding Exercises
+* **Ex 1:** Create an `ArrayList` of cities. Remove any city starting with "B".
+* **Ex 2:** Find the average value of an Integer ArrayList.
 
----
-
-### 🟣 Day 12: LinkedList & Map (HashMap)
+### 🟣 Day 12: Collections (Map & Set)
 **Date:** Dec 06, 2025 (Saturday)
 
 #### 📘 Theory
-1.  **LinkedList:** Node-based structure (Head/Tail). Faster manipulation than ArrayList.
-2.  **HashMap:** Key-Value pairs. Unique keys.
-3.  **Methods:** `put`, `get`, `keySet`, `entrySet`.
+1.  **HashSet:** Unique elements only.
+2.  **HashMap:** Key-Value pairs (`put`, `get`).
 
-#### 💻 Coding Exercises (Medium)
-* **Exercise 1 (Map Logic):** Write a program to count the frequency of characters in a String.
-    * Input: "PROGAMMING"
-    * Output: P=1, R=1, O=1, G=2, A=1, M=2, I=1, N=1
-    * *Hint: Use Character as Key and Integer as Value.*
+#### 💻 Coding Exercises
+* **Ex 1 (Frequency Count):** Count character occurrences in "PROGRAMMING" using `HashMap`.
+    * Output: `P=1, R=2, O=1...`
 
----
-
-### 🟣 Day 13: Exception Handling
+### 🟣 Day 13: Exceptions & Java Capstone
 **Date:** Dec 07, 2025 (Sunday)
 
 #### 📘 Theory
-1.  **Try-Catch-Finally:** Handling runtime errors.
-2.  **Exception Hierarchy:** Checked vs Unchecked Exceptions.
-3.  **Keywords:** `throw` (create exception) vs `throws` (declare exception).
+1.  **Handling:** `try`, `catch`, `finally`, `throw`, `throws`.
+2.  **Types:** Checked vs Unchecked.
 
-#### 💻 Coding Exercises (Medium)
-* **Exercise 1:** Write a program for Division. Handle `ArithmeticException` (divide by zero) and `InputMismatchException` (if user enters text instead of numbers).
-* **Exercise 2:** Create a custom exception called `InvalidAgeException`. Write a program that checks voting eligibility. If age < 18, throw this exception.
+#### 💻 Coding Exercises
+* **Ex 1 (Custom Exception):** Throw `InvalidAgeException` if age < 18.
+* **Capstone:** Create a console-based "Library System" using Classes, ArrayList, and Exceptions.
 
 ---
 
-### 🏆 Day 14: Mini Capstone (Putting it together)
+## 🗓️ Phase 4: Selenium WebDriver Mastery
+*Interacting with the browser.*
+
+### 🟢 Day 14: Architecture & Locators
 **Date:** Dec 08, 2025 (Monday)
 
-#### 💻 Final Exercise: "Library Management System"
-Create a console-based application using the concepts learned:
-1.  **Class `Book`:** (Encapsulation) private fields for title, author, ISBN.
-2.  **Interface `LibraryOperations`:** methods `addBook()`, `issueBook()`, `returnBook()`.
-3.  **Class `Library`:** Implements operations. Use `ArrayList<Book>` to store data.
-4.  **Exception:** Throw `BookNotFoundException` if a user tries to issue a book that doesn't exist.
-5.  **Main Class:** Use a `Switch` case inside a `While` loop to keep the menu running until the user selects "Exit".
+#### 📘 Concepts
+* **WebDriver Architecture:** Client -> JSON Wire Protocol -> Browser Driver.
+* **Locators:** XPath (Absolute/Relative), CSS, ID, Name.
+
+#### 💻 Exercises
+* **Ex 1:** Write an XPath using `following-sibling` to find an input field next to a label "Email".
+* **Ex 2:** Write a dynamic XPath for a button containing text "Submit".
+
+### 🟢 Day 15: WebElements & Dropdowns
+**Date:** Dec 09, 2025 (Tuesday)
+
+#### 📘 Concepts
+* **Commands:** `click()`, `sendKeys()`, `getText()`.
+* **Dropdowns:** `Select` class methods.
+
+#### 💻 Exercises
+* **Ex 1:** Automate selecting "India" from a country dropdown.
+* **Ex 2:** Scrape text from a specific cell in an HTML table.
+
+### 🟢 Day 16: Synchronization (Waits)
+**Date:** Dec 10, 2025 (Wednesday)
+
+#### 📘 Concepts
+* **Implicit Wait:** Global timeout.
+* **Explicit Wait:** `WebDriverWait` for specific conditions.
+* **Fluent Wait:** Polling interval.
+
+#### 💻 Exercises
+* **Ex 1:** Replace `Thread.sleep` with `Explicit Wait` for an element to be clickable.
+
+### 🟢 Day 17: Frames, Windows & Alerts
+**Date:** Dec 11, 2025 (Thursday)
+
+#### 📘 Concepts
+* **Windows:** `getWindowHandles()`, switching via Iterator.
+* **Frames:** `switchTo().frame()`.
+* **Alerts:** `accept()`, `dismiss()`.
+
+#### 💻 Exercises
+* **Ex 1:** Script to open a new tab, switch focus, and verify the title.
+
+### 🟢 Day 18: Actions & JS Executor
+**Date:** Dec 12, 2025 (Friday)
+
+#### 📘 Concepts
+* **Actions:** Hover, Drag & Drop, Double Click.
+* **JS Executor:** Scroll, Click hidden elements.
+
+#### 💻 Exercises
+* **Ex 1:** Automate a Double Click action.
+* **Ex 2:** Scroll to the bottom of a page using JS Executor.
+
+---
+
+## 🗓️ Phase 5: Framework Design & API
+*The "Job Ready" Skills.*
+
+### 🟢 Day 19: TestNG Fundamentals
+**Date:** Dec 15, 2025 (Monday)
+
+#### 📘 Concepts
+* **Annotations:** `@Test`, `@BeforeMethod`, `@AfterClass`.
+* **xml:** Suite configuration, `priority`.
+
+#### 💻 Exercises
+* **Ex 1:** Convert a main method script into TestNG methods using Assertions.
+
+### 🟢 Day 20: Advanced TestNG
+**Date:** Dec 16, 2025 (Tuesday)
+
+#### 📘 Concepts
+* **Parallel:** `thread-count`, `parallel="tests"`.
+* **Retries:** `IRetryAnalyzer` for failed tests.
+
+#### 💻 Exercises
+* **Ex 1:** Configure a suite to run two classes in parallel.
+
+### 🟢 Day 21: Page Object Model (POM)
+**Date:** Dec 17, 2025 (Wednesday)
+
+#### 📘 Concepts
+* **Design:** Separate Locators (Page Class) from Logic (Test Class).
+* **PageFactory:** `@FindBy`, `initElements`.
+
+#### 💻 Exercises
+* **Ex 1:** Build a `LoginPage` and `LoginTest` using POM structure.
+
+### 🟢 Day 22: Data Driven (Apache POI)
+**Date:** Dec 18, 2025 (Thursday)
+
+#### 📘 Concepts
+* **Excel:** Reading data using `Workbook`, `Sheet`, `Row`.
+
+#### 💻 Exercises
+* **Ex 1:** Create a utility to read username/password from Excel for login.
+
+### 🟢 Day 23: Maven, Git & CI/CD
+**Date:** Dec 19, 2025 (Friday)
+
+#### 📘 Concepts
+* **Maven:** `pom.xml` dependencies.
+* **Git:** `commit`, `push`, `pull`, `branch`.
+* **Jenkins:** Creating a build job.
+
+#### 💻 Exercises
+* **Ex 1:** Push your framework to GitHub.
+* **Ex 2:** Create a Jenkins job to pull code and run tests.
+
+### 🟢 Day 24: API Testing (REST Assured)
+**Date:** Dec 22, 2025 (Monday)
+
+#### 📘 Concepts
+* **Basics:** GET, POST, PUT, DELETE.
+* **Status Codes:** 200, 201, 400, 404, 500.
+
+#### 💻 Exercises
+* **Ex 1:** Write a GET request to validate a 200 OK status.
+* **Ex 2:** Write a POST request with a JSON payload.
+
+### 🟢 Day 25: Complex Logic Challenge
+**Date:** Dec 23, 2025 (Tuesday)
+
+#### 💻 Exercises
+* **Challenge 1:** String Expander (convert `a2b3` -> `aabbb`).
+* **Challenge 2:** Count occurrences of a specific word in a sentence.
+* **Challenge 3:** Handle `StaleElementReferenceException` via try-catch.
 
 ---
