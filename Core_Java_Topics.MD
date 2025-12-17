@@ -3,7 +3,14 @@
 This document outlines key Core Java concepts frequently discussed in Selenium interviews, along with their relevance and important points for preparation.
 
 ## OOPS Concepts
-https://github.com/narayana573/Testng_DataDrivenFramework/blob/master/Encapsulation.md
+
+
+[Encapsulation::](https://github.com/narayana573/Testng_DataDrivenFramework/blob/master/Encapsulation.md)
+[Inheritance::](https://github.com/narayana573/Testng_DataDrivenFramework/blob/master/Inheritance.md)
+[Polymorphism::](https://github.com/narayana573/Testng_DataDrivenFramework/blob/master/Polymorphism.md)
+[Encapsulation::](https://github.com/narayana573/Testng_DataDrivenFramework/blob/master/Encapsulation.md)
+
+
 **Encapsulation**
 
 * **Definition:** Wrapping up data (variables) and code (methods) into a single unit. Achieved by using access modifiers (primarily `private` for data) and providing public getter and setter methods to control access.
