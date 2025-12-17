@@ -4,81 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8270310a-3e3e-41d1-aa60-b945615fb0b4" name="Default" comment="third commit.">
-      <change afterPath="$PROJECT_DIR$/Interview_Notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOPS.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pratice_2026/SwapNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pratice_2026/TernaryLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pratice_2026/Type_Casting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_06.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_net_commons_net_3_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_6_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_4_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_3_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2025_Interview_Questions.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/2025_Interview_Questions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2025_new_interview.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/2025_new_interview.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collections.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/Collections.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core_Java_Topics.MD" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/Core_Java_Topics.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataDrivenAutomationTestng2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Encapsulation.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/Encapsulation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/Inheritance.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview_Questions.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/Interview_Questions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manual_Testing.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/Manual_Testing.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Manual_Testing_Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/Manual_Testing_Notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OLD_Interview_Question.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/OLD_Interview_Question.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polymorphism.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/Polymorphism.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SDET_Master_Roadmap.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/SDET_Master_Roadmap.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sample_Codes.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/Sample_Codes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium_Training_Curriuclum.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/Selenium_Training_Curriuclum.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium_interview_questions.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/Selenium_interview_questions.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestNG.md" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/TestNG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web_Services.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/Web_Services.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/automation/testing/base/DriverInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/automation/testing/base/DriverInstance.class" afterDir="false" />
+    <list default="true" id="8270310a-3e3e-41d1-aa60-b945615fb0b4" name="Default" comment="md files updated path">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview_Notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/Interview_Notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPS.MD" beforeDir="false" afterPath="$PROJECT_DIR$/MD_Files/OOPS.MD" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,22 +164,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.SwapNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TernaryLogic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Type_Casting.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;TestNG.TC_001_ValidateLoginFunctionality.tc_001_login_functionality.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SwapNumber.executor": "Run",
+    "Application.TernaryLogic.executor": "Run",
+    "Application.Type_Casting.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.TC_001_ValidateLoginFunctionality.tc_001_login_functionality.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Surya\IdeaProjects\Testng_DataDrivenFramework\target" />
       <recent name="C:\Users\Surya\IdeaProjects\Testng_DataDrivenFramework\MD_Files" />
+      <recent name="C:\Users\Surya\IdeaProjects\Testng_DataDrivenFramework\target" />
     </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -522,7 +453,15 @@
       <option name="project" value="LOCAL" />
       <updated>1558684007731</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="md files updated path">
+      <option name="closed" value="true" />
+      <created>1765978082733</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1765978082733</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -636,7 +575,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="third commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit." />
+    <MESSAGE value="md files updated path" />
+    <option name="LAST_COMMIT_MESSAGE" value="md files updated path" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/org/automation/testing/testcases/TC_001_ValidateLoginFunctionality.java">
