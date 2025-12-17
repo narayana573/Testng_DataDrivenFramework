@@ -9,8 +9,5 @@
         <module name="DataDrivenAutomationTestng2" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="DataDrivenAutomationTestng2" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
