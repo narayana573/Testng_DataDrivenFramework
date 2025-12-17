@@ -3,7 +3,7 @@
 This document outlines key Core Java concepts frequently discussed in Selenium interviews, along with their relevance and important points for preparation.
 
 ## OOPS Concepts
-
+Encapsulation.md
 **Encapsulation**
 
 * **Definition:** Wrapping up data (variables) and code (methods) into a single unit. Achieved by using access modifiers (primarily `private` for data) and providing public getter and setter methods to control access.
