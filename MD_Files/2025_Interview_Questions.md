@@ -138,14 +138,55 @@ public void testMethod() {
 To automate multiple tabs:
 
 ```java
-// Open new tab using JavaScript
-((JavascriptExecutor) driver).executeScript("window.open()");
+import java.util.Set;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
-// Get window handles
-ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
+public class HandleMultipleTabs {
 
-// Switch to the new tab
-driver.switchTo().window(tabs.get(1));
+    public static void main(String[] args) {
+        
+        System.setProperty("webdriver.chrome.driver", "./path/to/chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://demoqa.com/browser-windows");
+
+        // 1. Store the Parent Window Handle (Current ID)
+        String parentWindowID = driver.getWindowHandle();
+        System.out.println("Parent ID: " + parentWindowID);
+
+        // 2. Click button to open a new tab
+        driver.findElement(By.id("tabButton")).click();
+
+        // 3. Get ALL Window Handles (Returns a Set of Strings)
+        Set<String> allWindowIDs = driver.getWindowHandles();
+
+        // 4. Iterate through the IDs
+        for (String windowID : allWindowIDs) {
+            
+            // If the ID is NOT the parent, it is the new child tab
+            if (!windowID.equals(parentWindowID)) {
+                
+                // Switch Selenium's focus to the new tab
+                driver.switchTo().window(windowID);
+                
+                System.out.println("Switched to Child Tab ID: " + windowID);
+                
+                // Perform actions in the new tab
+                System.out.println("Child Tab Title: " + driver.getTitle());
+                
+                // Close the child tab (Ensure you don't use quit() here!)
+                driver.close(); 
+            }
+        }
+
+        // 5. Switch control BACK to the Parent Tab
+        driver.switchTo().window(parentWindowID);
+        
+        System.out.println("Back to Parent: " + driver.getTitle());
+        driver.quit();
+    }
+}
 ```
 
 ### 2. What is the predefined method for switching tabs in Selenium?
