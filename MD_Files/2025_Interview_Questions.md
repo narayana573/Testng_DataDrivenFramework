@@ -255,19 +255,24 @@ testng-failed.xml → lets you re-run final failed tests manually
 ### 7. Java Program to count the word "test" in a string
 
 ```java
-public class TestCounter {
-    public static void main(String[] args) {
-        String input = "test testing";
-        String wordToFind = "test";
 
+class Main {
+    public static void main(String[] args) {
+        String input = "test the system, this test is a simple test.";
+        String target = "test";
+        
+        // Clean the string: remove punctuation and convert to lowercase
+        String[] words = input.toLowerCase().split("\\W+");
+        
         int count = 0;
-        for (int i = 0; i <= input.length() - wordToFind.length(); i++) {
-            if (input.substring(i, i + wordToFind.length()).equals(wordToFind)) {
+        for (String w : words) {
+            if (w.equals(target)) {
                 count++;
             }
         }
-
-        System.out.println("The word '" + wordToFind + "' appears " + count + " time(s).");
+        
+        System.out.println("Occurrence of '" + target + "': " + count);
+    
     }
 }
 ```
@@ -275,7 +280,7 @@ public class TestCounter {
 **Output:**
 
 ```
-The word 'test' appears 2 time(s).
+The word 'test' appears 3 time(s).
 ```
 
 ---
