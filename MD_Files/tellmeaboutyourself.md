@@ -7,7 +7,7 @@
 **Experience:** 12+ Years
 
 
-* Hi, I’m Surya. I have over 12 years of experience in software testing and am currently working at Virtusa.
+* Hi, I’m Surya. I have over 12+ years of experience in software testing and am currently working at Virtusa.
   
 * Throughout my career, I have developed deep expertise in both manual and automated testing, with a strong focus on API, database, functional, and regression testing.
   
