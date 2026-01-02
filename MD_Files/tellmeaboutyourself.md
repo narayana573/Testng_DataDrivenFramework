@@ -12,7 +12,7 @@
 * Throughout my career, I have developed deep expertise in both manual and automated testing, with a strong focus on API, database, functional, and regression testing.
 
 * Specialized in both manual and automated testing within the banking domain, ensuring high-quality delivery for complex financial systems.
-* 
+  
 * I am highly experienced in Agile methodologies, specifically the Scrum framework, which allows me to optimize testing efforts within fast-paced development environments.
   
 * I collaborate effectively with cross-functional teams—including developers and Business Analysts—to ensure the seamless integration of testing activities.
