@@ -13,6 +13,7 @@
 * **Sprint Backlog:** A subset of Product Backlog items selected by the development team for a specific, short iteration (sprint) to complete during that time.
 * **Sprint / Iteration:** A time-boxed period (usually 2–4 weeks) during which a specific set of work is completed and made ready for review.
 * **Story Point:** A unit of measure used in Agile to estimate the overall effort required to fully implement a product backlog item. It accounts for **complexity, amount of work, and risk/uncertainty.**
+* **Spillover:** Spillover	Work that was started in one Sprint but not finished, "spilling over" into the next.
 
 ---
 
