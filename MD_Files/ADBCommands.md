@@ -1,3 +1,5 @@
+Here are the ADB commands organized into a clean, professional table format optimized for Markdown (`.md`) files. This structure is perfect for interview preparation or quick-reference documentation.
+
 ---
 
 ### 📱 Android Debug Bridge (ADB) Command Reference
@@ -34,3 +36,13 @@
 | `adb forward <local> <remote>` | Forwards socket connections from a host port to a device port. |
 
 ---
+
+### 💡 Pro-Tip for Interviews:
+
+When asked about ADB, mentioning the **Architecture** often earns extra points. ADB operates using three components:
+
+1. **Client:** Your computer sending commands.
+2. **Server:** A background process on your PC that manages communication between the Client and the Daemon.
+3. **Daemon (adbd):** The process running on the Android device/emulator that executes the commands.
+
+**Would you like me to provide some "One-Liner" scripts for common automation tasks using these commands?**
