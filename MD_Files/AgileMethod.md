@@ -9,8 +9,8 @@
 * *Format:* "As a [user], I want [action] so that [value/benefit]."
 
 
-* **Product Backlog:** A prioritized list of everything that might be needed in the product. It is managed by the Product Owner and is constantly evolving.
-* **Sprint Backlog:** A subset of the Product Backlog selected for the current Sprint. It contains the tasks and user stories the team commits to delivering.
+* **Product Backlog:** The master list for the entire product, owned by the Product Owner, containing all potential work.
+* **Sprint Backlog:** A subset of Product Backlog items selected by the development team for a specific, short iteration (sprint) to complete during that time.
 * **Sprint / Iteration:** A time-boxed period (usually 2–4 weeks) during which a specific set of work is completed and made ready for review.
 * **Story Point:** A unit of measure used in Agile to estimate the overall effort required to fully implement a product backlog item. It accounts for **complexity, amount of work, and risk/uncertainty.**
 
