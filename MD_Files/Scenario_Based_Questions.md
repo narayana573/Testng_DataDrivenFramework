@@ -102,4 +102,47 @@ Expect to be asked how you measure success. Mention these specific KPIs:
 | **Defect Rejection Rate** | High rejection means the QA team isn't identifying bugs correctly before reporting. |
 | **Environment Downtime** | How much time was lost due to the test environment being unavailable? |
 
+
+
+---
+
+
+
+
+## Can you speek about your daily routine as a test Lead?.
+
+### **Morning: Planning & Alignment**
+
+* **Check Emails & Dashboards:** Review critical defects logged overnight and check the status of automated test runs.
+* **Environment & Smoke Test Check:** Verify that the test environment is stable and the "Smoke Suite" has passed before the team starts their day.
+* **Daily Stand-up (Scrum):** Lead the team meeting to discuss:
+* What was completed yesterday.
+* What is planned for today.
+* **Blockers:** Identifying and removing any hurdles (e.g., missing data, environment downtime) to keep the team productive.
+
+
+
+### **Mid-Day: Quality Oversight & Collaboration**
+
+* **Defect Triage Meetings:** Meet with Developers and Product Owners to review open bugs, prioritize fixes based on severity/priority, and assign them to the right release.
+* **Test Case & Script Review:** Review the test cases written by the team to ensure 100% requirement coverage and high quality.
+* **Stakeholder Sync:** Brief the Project Manager or Business Analyst on testing progress, highlighting any risks that might impact the delivery timeline.
+
+### **Afternoon: Deep Work & Mentorship**
+
+* **Test Execution Monitoring:** Track the execution progress against the daily target. If the team is lagging, identify the root cause.
+* **UAT Coordination:** (If in a UAT Lead role) Coordinate with business users to facilitate their testing, answer functional queries, and help them document defects.
+* **Mentoring:** Spend time with junior testers to help them with complex scenarios or technical issues like SQL queries or automation scripts.
+
+### **Evening: Reporting & Planning**
+
+* **Daily Status Report (DSR):** Prepare and send the execution report to stakeholders. This usually includes:
+* Total Test Cases vs. Executed.
+* Pass/Fail/Blocked percentage.
+* Defect summary (Open/Closed/Critical).
+
+
+* **Resource Planning:** Review the workload for the next day/week to ensure no one is overloaded or idle.
+* **Update Traceability:** Ensure the **RTM (Requirement Traceability Matrix)** is updated based on the day's progress.
+
 ---
