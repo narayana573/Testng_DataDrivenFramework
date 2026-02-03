@@ -18,11 +18,10 @@
 
 
 ```sql
-SELECT Salary FROM (
-  SELECT Salary, DENSE_RANK() OVER (ORDER BY Salary DESC) as Rank
-  FROM Employee
-) AS Temp
-WHERE Rank = N;
+SELECT DISTINCT Salary
+FROM Employee
+ORDER BY Salary DESC
+LIMIT 1 OFFSET (N - 1);
 
 ```
 
