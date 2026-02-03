@@ -16,13 +16,13 @@
 * I am highly experienced in Agile methodologies, specifically the Scrum framework, which allows me to optimize testing efforts within fast-paced development environments.
   
 * I collaborate effectively with cross-functional teams—including developers and Business Analysts—to ensure the seamless integration of testing activities.
-  
-* For defect management and tracking, I am proficient in tools like Jira and Bugzilla.
+    
+* I am equally comfortable driving results as a Lead Individual Contributor or as a collaborative team member.
   
 * One of my most impactful recent achievements was integrating GitHub Copilot into our workflow. By leveraging AI to generate test cases, I managed to reduce our documentation time by 40%.
 
+
+
 * In my current role, I specialize in building robust automation frameworks from scratch using Selenium with the Page Object Model (POM) and developing custom utility methods to ensure scalability.
-  
-* I am equally comfortable driving results as a Lead Individual Contributor or as a collaborative team member.
-  
+* For defect management and tracking, I am proficient in tools like Jira and Bugzilla. 
 * I remain deeply passionate about staying up-to-date with the latest advancements in software testing to deliver high-quality software.
