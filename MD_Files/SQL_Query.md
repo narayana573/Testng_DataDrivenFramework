@@ -2,6 +2,33 @@
 
 ---
 
+ **Nth Highest Salary** 
+
+---
+
+## 🧠 Logical Breakdown
+
+1. **`SELECT DISTINCT Salary`**: Ensures that if multiple employees earn the same amount, that salary is only counted once. Without `DISTINCT`, if the top two people earn $100k, the "2nd highest" would incorrectly return $100k instead of the next unique value.
+2. **`ORDER BY Salary DESC`**: Sorts the list from highest to lowest.
+3. **`OFFSET (N - 1) ROWS`**: Skips the first  records. For example, if you want the 3rd highest salary, you skip the top 2.
+4. **`FETCH NEXT 1 ROW ONLY`**: Grabs the very next record after the skip.
+
+---
+
+
+
+```sql
+SELECT Salary FROM (
+  SELECT Salary, DENSE_RANK() OVER (ORDER BY Salary DESC) as Rank
+  FROM Employee
+) AS Temp
+WHERE Rank = N;
+
+```
+
+---
+
+
 ### 📋 SQL Joins Reference Sheet
 
 #### 🏗️ Setup Data (Modified for Clarity)
