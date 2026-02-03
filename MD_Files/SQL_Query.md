@@ -11,7 +11,7 @@
 1. **`SELECT DISTINCT Salary`**: Ensures that if multiple employees earn the same amount, that salary is only counted once. Without `DISTINCT`, if the top two people earn $100k, the "2nd highest" would incorrectly return $100k instead of the next unique value.
 2. **`ORDER BY Salary DESC`**: Sorts the list from highest to lowest.
 3. **`OFFSET (N - 1) ROWS`**: Skips the first  records. For example, if you want the 3rd highest salary, you skip the top 2.
-4. **`FETCH NEXT 1 ROW ONLY`**: Grabs the very next record after the skip.
+4. **`LIMIT 1`**:  Selects only the next single row
 
 ---
 
