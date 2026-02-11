@@ -253,8 +253,7 @@ public class TestCounter {
 **Output:**
 
 ```
-The word 'test' appears 2 time(s). // For the input "test testing"
-The word 'test' appears 3 time(s). // For the input "test testing the test"
+Test Keyword is repeated 2 Times
 ```
 
 ---
