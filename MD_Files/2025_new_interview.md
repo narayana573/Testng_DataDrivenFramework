@@ -233,19 +233,19 @@ To rerun failed tests automatically *during* the same run (e.g., for flaky tests
 ```java
 public class TestCounter {
     public static void main(String[] args) {
-        String input = "test testing the test"; // Added another "test" for clarity
-        String wordToFind = "test";
+        String input = "test testing the test"; 
+         int Count = 0;
+        
+        String[] split = input.split(" ");
 
-        int count = 0;
-        // Iterate through the string, checking for the word at each position
-        for (int i = 0; i <= input.length() - wordToFind.length(); i++) {
-            // Extract a substring of the same length as the word to find
-            if (input.substring(i, i + wordToFind.length()).equals(wordToFind)) {
-                count++; // If the substring matches the word, increment count
+        for (String word : split) {
+
+            if (word.equals("test")) {
+
+                Count++;
             }
         }
-
-        System.out.println("The word '" + wordToFind + "' appears " + count + " time(s).");
+        System.out.println("Test Keyword is repeated "+Count+" Times");
     }
 }
 ```
