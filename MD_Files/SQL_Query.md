@@ -23,7 +23,19 @@ FROM Employee
 ORDER BY Salary DESC
 LIMIT 1 OFFSET (N - 1);
 
+///////////////////////////////////
+If you prefer the nested SELECT MAX style, you can use a "Top"
+filter to exclude the highest earners and then grab the next one.
+To find the 3rd highest:
+
+SELECT MAX(Salary) FROM Employees
+WHERE Salary NOT IN (
+    SELECT TOP 2 Salary FROM Employees ORDER BY Salary DESC
+);
+
 ```
+
+
 
 ---
 
